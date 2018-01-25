@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_How To Обзор сам
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Директивы препроцессора", "Директивы препроцессора\Директивы препроцессора.csproj", "{FCA29303-072A-4D1D-9C91-07C5F4346DC0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork_МАШИННАЯ МАТЕМАТИКА И СИСТЕМЫ СЧИСЛЕНИЯ", "HomeWork_МАШИННАЯ МАТЕМАТИКА И СИСТЕМЫ СЧИСЛЕНИЯ\HomeWork_МАШИННАЯ МАТЕМАТИКА И СИСТЕМЫ СЧИСЛЕНИЯ.csproj", "{12600F94-E6E0-48A8-81FE-60AB1E95AD47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework__Part2_МАШИННАЯ МАТЕМАТИКА И СИСТЕМЫ СЧИСЛЕНИЯ", "Homework__Part2_МАШИННАЯ МАТЕМАТИКА И СИСТЕМЫ СЧИСЛЕНИЯ\Homework__Part2_МАШИННАЯ МАТЕМАТИКА И СИСТЕМЫ СЧИСЛЕНИЯ.csproj", "{4EBC24F4-5F0E-410F-B484-9B683F820B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_Part3_МАШИННАЯ МАТЕМАТИКА И СИСТЕМЫ СЧИСЛЕНИЯ", "Homework_Part3_МАШИННАЯ МАТЕМАТИКА И СИСТЕМЫ СЧИСЛЕНИЯ\Homework_Part3_МАШИННАЯ МАТЕМАТИКА И СИСТЕМЫ СЧИСЛЕНИЯ.csproj", "{EE772389-12AE-420D-8453-8AAC5DFEBD6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +37,18 @@ Global
 		{FCA29303-072A-4D1D-9C91-07C5F4346DC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FCA29303-072A-4D1D-9C91-07C5F4346DC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FCA29303-072A-4D1D-9C91-07C5F4346DC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12600F94-E6E0-48A8-81FE-60AB1E95AD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12600F94-E6E0-48A8-81FE-60AB1E95AD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12600F94-E6E0-48A8-81FE-60AB1E95AD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12600F94-E6E0-48A8-81FE-60AB1E95AD47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EBC24F4-5F0E-410F-B484-9B683F820B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EBC24F4-5F0E-410F-B484-9B683F820B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EBC24F4-5F0E-410F-B484-9B683F820B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EBC24F4-5F0E-410F-B484-9B683F820B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE772389-12AE-420D-8453-8AAC5DFEBD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE772389-12AE-420D-8453-8AAC5DFEBD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE772389-12AE-420D-8453-8AAC5DFEBD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE772389-12AE-420D-8453-8AAC5DFEBD6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +57,9 @@ Global
 		{43102F4E-1583-4FC3-B48C-0637AA4F33CC} = {38B7F46D-0739-4864-8AF4-9F6B1679E6DD}
 		{43B196CB-ED9F-4109-95F2-7D0C9E912D5F} = {43102F4E-1583-4FC3-B48C-0637AA4F33CC}
 		{FCA29303-072A-4D1D-9C91-07C5F4346DC0} = {43102F4E-1583-4FC3-B48C-0637AA4F33CC}
+		{12600F94-E6E0-48A8-81FE-60AB1E95AD47} = {43102F4E-1583-4FC3-B48C-0637AA4F33CC}
+		{4EBC24F4-5F0E-410F-B484-9B683F820B38} = {43102F4E-1583-4FC3-B48C-0637AA4F33CC}
+		{EE772389-12AE-420D-8453-8AAC5DFEBD6E} = {43102F4E-1583-4FC3-B48C-0637AA4F33CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EC651EF-E473-43E4-90BF-6591E27E66DB}
