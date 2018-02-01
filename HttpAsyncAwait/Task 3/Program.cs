@@ -27,7 +27,7 @@ namespace Task_3
             else if (x >= 25)
                 Console.WriteLine($"Премия составляет 50 % от заработной платы {salary}. Зарплата {salary * 1.5}");
             else
-                Console.WriteLine("Вы ввели неверное значение");
+                Console.WriteLine("Вы ввели неверное значение"); 
 
             //Delay
             Console.ReadKey();
