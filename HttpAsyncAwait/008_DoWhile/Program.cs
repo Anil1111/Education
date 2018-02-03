@@ -4,25 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _003_GoTo
+namespace _008_DoWhile
 {
     class Program
     {
         static void Main(string[] args)
         {
-            bool condition = true;
-            if(condition == true)
+            int counter = 0;
+            do
             {
-                goto Label;
+                Console.WriteLine($"Counter - {++counter}");
             }
-            Console.WriteLine("First Line"); 
-
-            Label:
-            Console.WriteLine("Second Line");
+            while (counter < 3);
+            Console.WriteLine($"Произведено {counter} итераций");
 
             //Delay
             Console.ReadKey();
-
         }
     }
 }

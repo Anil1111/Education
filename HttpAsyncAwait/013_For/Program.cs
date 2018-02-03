@@ -4,25 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _003_GoTo
+namespace _013_For
 {
     class Program
     {
         static void Main(string[] args)
         {
-            bool condition = true;
-            if(condition == true)
+            for(int counter=0;counter<3;counter++)
             {
-                goto Label;
+                Console.WriteLine("Counter = {0}", counter);
+                break;
+                Console.WriteLine("Эта строчка никогда не выполнится");
             }
-            Console.WriteLine("First Line"); 
-
-            Label:
-            Console.WriteLine("Second Line");
-
             //Delay
             Console.ReadKey();
-
         }
     }
 }
