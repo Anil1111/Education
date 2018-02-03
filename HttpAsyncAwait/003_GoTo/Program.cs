@@ -21,7 +21,7 @@ namespace _003_GoTo
             Console.WriteLine("Second Line");
 
             //Delay
-            Console.ReadKey();   
+            Console.ReadKey();   //
 
         }
     }
