@@ -4,17 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _014_For
+namespace Break
 {
     class Program
     {
         static void Main(string[] args)
         {
-            for(int counter = 0; counter<3;counter++)
+            for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("Counter = {0}", counter);
-                continue;
-                Console.WriteLine("Эта строчка никогда не выполнится!");
+                Console.WriteLine("1 строка");
+                if (i < 5)
+                {
+                    break;
+                }
+                Console.WriteLine("2 строка");
             }
             //Delay
             Console.ReadKey();
