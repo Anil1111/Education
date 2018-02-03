@@ -15,7 +15,7 @@ namespace _003_GoTo
             {
                 goto Label;
             }
-            Console.WriteLine("First Line");
+            Console.WriteLine("First Line"); 
 
             Label:
             Console.WriteLine("Second Line");
