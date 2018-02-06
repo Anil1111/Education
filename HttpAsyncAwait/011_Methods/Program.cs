@@ -24,7 +24,7 @@ namespace _011_Methods
             Console.WriteLine($"{operand} : {result}");
 
             //Delay
-            Console.ReadKey(); 
+            Console.ReadKey();  
         }
     }
 }
