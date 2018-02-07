@@ -55,7 +55,7 @@ namespace AsyncAwait_002
                     {
                         string myContent = await content.ReadAsStringAsync();
                         HttpContentHeaders headers = content.Headers;
-                        Console.WriteLine(myContent);
+                        Console.WriteLine(myContent); 
 
                     }
                 }
