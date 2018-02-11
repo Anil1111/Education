@@ -23,5 +23,14 @@ namespace _010_Recursion
             Console.WriteLine($"a={a}, b={b} ,НОД = {Calculate(a,b)}");
             Console.ReadKey();
         }
+
+        #region Второй вариант решения
+        static int Calculate2(int a, int b)
+        {
+            while (b!=0)
+                b = a % (a = b);
+            return a;
+        }
+        #endregion
     }
 }
