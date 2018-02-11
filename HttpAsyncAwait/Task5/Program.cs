@@ -10,10 +10,10 @@ namespace Task5
     {
         static void Main(string[] args)
         {
-            int uberflu?;            // ОШИБКА
+         //   int uberflu?;            // ОШИБКА
             byte _Identifier;
             short  \u00f6Identifier;
-            double  &myVar;          // ОШИБКА
+          //  double  &myVar;          // ОШИБКА
             bool myVariab1ler;
         }
     }

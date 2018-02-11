@@ -10,7 +10,7 @@ namespace _011_Factorial
     {
         static void Main(string[] args)
         {
-            int counter = 4;
+            int counter = 10;
             int factorial = 1;
 
             do

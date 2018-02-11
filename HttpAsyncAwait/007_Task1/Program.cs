@@ -58,7 +58,6 @@ namespace _007_Task1
             while (!sign.Equals("+") && !sign.Equals("-") && !sign.Equals("*") && !sign.Equals("/"));
             
         }
-        public
         static void Main(string[] args)
         {
             double operand1, operand2, result;
