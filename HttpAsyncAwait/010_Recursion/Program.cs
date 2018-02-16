@@ -14,7 +14,6 @@ namespace _010_Recursion
                 return b;
             else
                 return Calculate(b, a % b);
-
         }
         static void Main(string[] args)
         {
