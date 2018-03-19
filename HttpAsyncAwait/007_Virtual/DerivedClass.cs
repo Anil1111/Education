@@ -9,9 +9,16 @@ namespace _007_Virtual
     class DerivedClass:BaseClass
     {
         //Переопределение метода базового класса
-        public override void Method()
+        public  override void Method()
         {
             Console.WriteLine("Method from DerivedClass");
         }
+
+        //так же мы можем заместить этот метод! просто не указыть слово override и указать слово new!
+        //если раскоменчивать этот метод, то нужно закоментить метод, который выше
+        //public new void Method()
+        //{
+        //    Console.WriteLine("Method from DerivedClass");
+        //}
     }
 }
