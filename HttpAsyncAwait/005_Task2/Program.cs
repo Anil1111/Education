@@ -22,6 +22,7 @@ namespace _005_Task2
 
             Console.WriteLine(new string('-', 50));
             store.Show();
+
             Console.WriteLine(new string('-', 50));
             store.Sort();
             store.Show();
