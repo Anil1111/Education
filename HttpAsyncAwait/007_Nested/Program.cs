@@ -9,9 +9,9 @@ namespace _007_Nested
 {
     public class MyClass
     {
-        public static class Nested
+        public static class Nested //НЕстатические классы могут в себе содержать статические Nested классы.
         {
-            public static void StaticMethodFromNested()
+            public static void StaticMethodFromNested() 
             {
                 Console.WriteLine("Статический метод Nested класса.");
             }

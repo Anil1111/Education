@@ -19,7 +19,7 @@ namespace _006_Nested
             Console.WriteLine("Статический метод класса MyClass");
         }
 
-        public class Nested
+        public class Nested    //Статические классы могут в себе содержать нестатические Nested классы.
         {
             public void MethodFromNested()
             {

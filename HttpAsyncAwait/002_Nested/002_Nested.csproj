@@ -7,7 +7,7 @@
     <ProjectGuid>{1C67B339-283C-43BC-825A-588950803CFA}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_002_Nested</RootNamespace>
-    <AssemblyName>_002_Nested</AssemblyName>
+    <AssemblyName>002_Nested</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

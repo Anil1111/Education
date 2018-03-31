@@ -12,8 +12,8 @@ namespace _003_Nested
 
             public void Method(int a)
             {
-                instance.field = a;
-                Console.WriteLine(instance.field);
+                instance.field = a;  //тут тоже инкапсуляция не работает. тут можно обращаться к закрытым нестатическим
+                Console.WriteLine(instance.field);  //членам внешнего класса.
             }
         }
     }

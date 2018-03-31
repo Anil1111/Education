@@ -7,7 +7,7 @@
     <ProjectGuid>{4D6687C6-E453-4D44-99C3-DB39FB1690B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_005_Nested</RootNamespace>
-    <AssemblyName>_005_Nested</AssemblyName>
+    <AssemblyName>005_Nested</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
