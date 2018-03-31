@@ -30,6 +30,7 @@ namespace _003_Extentsion
 
             text.ExtensionMethod("world");
 
+            // "Hello " -это литерал!
             "Hello ".ExtensionMethod("world!");
             2.ExtensionMethod(30);
 

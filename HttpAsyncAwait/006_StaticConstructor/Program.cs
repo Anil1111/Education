@@ -14,7 +14,8 @@ namespace _006_StaticConstructor
             instance.NotStaticMethod(); //содержит статический конструктор - этот конструктор БУДЕТ ВЫЗВАН В ПЕРВУЮ ОЧЕРЕДЬ!
                                         //Сначала отрабатывает статический - а потом не статический конструктор
             NotStaticClass.Field = 2;
-            Console.WriteLine(NotStaticClass.Field);
+            Console.WriteLine(NotStaticClass.Field); //если выполнить только это , то НЕ статический конструктор 
+                                    //и вызываться не будет т.к мы не строим экземпляр класса.
 
             NotStaticClass.Method();
             NotStaticClass.Method(3);

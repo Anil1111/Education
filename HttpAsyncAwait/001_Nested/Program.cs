@@ -10,8 +10,8 @@ namespace _001_Nested
     //Экземпляр внутреннего класса не может существовать без привязки к включающему его классу верхнего уровня.
     class MyClass
     {
-        public class NestedClass
-        {
+        public class NestedClass // если уберу public, то будет ошибка на 26 строке.
+        {                         //т.е класс NestedClass будет доступен только для класса MyClass
             public void Method()
             {
                 Console.WriteLine("Method from Nested Class");

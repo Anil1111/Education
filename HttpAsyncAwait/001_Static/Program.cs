@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace _001_Static
-{
+{//Static - поля, свойства, события, конструкторы, классы.
     class Program
     {
         static void Main(string[] args)

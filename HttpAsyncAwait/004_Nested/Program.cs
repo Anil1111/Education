@@ -21,7 +21,7 @@ namespace _004_Nested
         static void Main(string[] args)
         {
             MyClass instance = new MyClass();
-            //  instance. методов не видно - Видим звезды не но видим микробы. MyClass не видит методов NestedClass
+            //  instance. методов не видно - MyClass не видит методов NestedClass //видео урок 31.
             MyClass.NestedClass instance2 = new MyClass.NestedClass();
             instance2.MethodFromBase();
             instance2.MethodFromNested();
