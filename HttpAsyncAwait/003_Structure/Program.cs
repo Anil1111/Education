@@ -12,7 +12,7 @@ namespace _003_Structure
         public static int field2;
         public string name;
 
-        //Конструторы по умолчанию нельззя задавать яно.
+        //Конструторы по умолчанию нельззя задавать явно.
         //public MyStruct()
         //{
         //}

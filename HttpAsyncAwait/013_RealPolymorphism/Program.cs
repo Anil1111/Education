@@ -33,7 +33,7 @@ namespace _013_RealPolymorphism
             container.field= new Der1();  // я сначала одел фурболку
             Console.WriteLine(container.field.GetHashCode());   //хэш коды разные т.к Der1 и Der2 разные обьекты!
 
-            container.field = new Der2(); // а потом одел футболку
+            container.field = new Der2(); // а потом одел рубашку
             Console.WriteLine(container.field.GetHashCode());   //хэш коды разные т.к Der1 и Der2 разные обьекты!
 
             //Delay

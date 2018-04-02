@@ -12,20 +12,28 @@ namespace _005_Structure
 {
     struct MyStruct //структура не может быть static т.к структура и так представляет собой некудю СТАТИЧЕСКУЮ СУЩНОСТЬ.
     {               // а экземпляры класса представляют собой ДИНАМИЧЕСКУЮ СУЩНОСТЬ.
-                     // по этому СТРУКТУРЫ -В СТЕКЕ, КЛАССЫ - НА КУЧЕ.
-        public static int Field { get; set; }
+                    // по этому СТРУКТУРЫ -В СТЕКЕ, КЛАССЫ - НА КУЧЕ.
+        public static int StaticField { get; set; }
+        public  int NotStaticField { get; set; }
 
-        public static void Show()
+        //обычные методы могут обращаться к статическим свойствам,
+
+        public static void Show()   
         {
-            Console.WriteLine(Field);
+            Console.WriteLine(StaticField);
         }
+        //// а статические методы к обычным свойствам - нет.
+        //public  static void Show1()
+        //{
+        //    Console.WriteLine(NotStaticField);
+        //}
     }
     class Program
     {
         static void Main(string[] args)
         {
             //Инициализация статических полей необязательна.
-            //MyStruct.Field = 1;
+            //MyStruct.StaticField = 1;
 
             MyStruct.Show(); //Мы на структуре-обьекте вызываем метод Show
 

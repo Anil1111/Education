@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D53A8515-50C9-4347-9F81-1EBC2D347C17}</ProjectGuid>
+    <ProjectGuid>{CD0D2BDD-422A-41B0-88F9-CE679BF2177E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_005_Structure</RootNamespace>
-    <AssemblyName>005_Structure</AssemblyName>
+    <RootNamespace>_009_Structure_BadDesignExample</RootNamespace>
+    <AssemblyName>009_Structure_BadDesignExample</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

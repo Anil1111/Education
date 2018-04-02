@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D53A8515-50C9-4347-9F81-1EBC2D347C17}</ProjectGuid>
+    <ProjectGuid>{222A0AD6-AB30-45E8-AEA1-D6B2B1B3CF0A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_005_Structure</RootNamespace>
-    <AssemblyName>005_Structure</AssemblyName>
+    <RootNamespace>_001_StructInStack</RootNamespace>
+    <AssemblyName>001_StructInStack</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MyStruct_1mb.cs" />
+    <Compile Include="MyStruct_8kb.cs" />
+    <Compile Include="MyStruct_16kb.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
