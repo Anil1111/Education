@@ -16,6 +16,11 @@ namespace _007_DateTime
 
             Console.WriteLine($"Осталось {left} дней.");
 
+
+            //Если название месяца на русском - то ошибки нету!
+            Console.WriteLine(DateTime.Parse("02 may 2012"));
+            Console.WriteLine(DateTime.Parse("02/12/2012"));
+            Console.WriteLine(DateTime.Now.ToString("ddd mmm MMM DDD yyy"));
             //Delay
             Console.ReadKey();
         }
