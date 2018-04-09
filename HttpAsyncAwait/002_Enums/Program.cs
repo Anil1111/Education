@@ -14,10 +14,19 @@ namespace _002_Enums
         Two = 2,
         Three = 3
     }
+
+    enum MyEnum1 //не инициализирую специально
+    {
+        Zero,
+        One ,
+        Two,
+        Three 
+    }
+
     class Program
     {
         static void Main(string[] args)
-        {
+        {          
             Enum one = MyEnum.One;
             Console.WriteLine(one);
 
@@ -32,6 +41,18 @@ namespace _002_Enums
                 Console.WriteLine(number);
                 Console.WriteLine((byte)number);
             }
+            
+            Console.WriteLine(new string('-',50));
+            // щас компилятор принициализирует САМ константы в перечислении
+            // он ВСЕГДА инициализирует константы СВЕРХУ ВНИЗ Т.К показано в примерах позже.
+            // он никогда не проинициализириует константы нулями. Всегда будут нормальные числа
+            for (MyEnum1 number = MyEnum1.Zero; number <= MyEnum1.Three; number++)
+            {
+                Console.WriteLine(number);
+                Console.WriteLine((byte)number);
+            }
+            Console.WriteLine(new string('-', 50));
+            
 
             //Delay
             Console.ReadKey();

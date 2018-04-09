@@ -10,7 +10,7 @@ namespace _010_Enums
     {
         Zero, // = 0
         One = 1,
-        one = One,
+        one = 1,
         Two = 2,
         Three, // = 3
         Four, // = 4
