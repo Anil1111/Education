@@ -14,7 +14,7 @@ namespace _006_Delegates
             int summand1 = 1, summand2 = 2, sum = 0;
             //This is the same
             MyDelegate myDelegate = new MyDelegate(delegate (int a, int b) { return a + b; });
-            //This is the same
+            //This is the same. Когда слово delegate есть - то знака "=>" нету, а когда слова delegate нету, то знак "=>" должен быть
             MyDelegate myDelegate1 = delegate (int a, int b) { return a + b; };
             //This is the same
             MyDelegate myDelegate3 = (a, b) => a + b;
