@@ -35,7 +35,9 @@ namespace _004_Delegates
             //оператом + порождает обьект из myDelegate1 и myDelegate2(у него внутри создается таблица в которую вписуются адреса методов из двух делегатов, с которых он был сделан)
             //, а потом уже еще один из того, что получился и myDelegate3. после того, как myDelegate создан, то делегат, который был сделан из myDelegate1 и myDelegate2 будет уничтожен garbage collector`ом
             //а все это потому, что делегаты IMMUTABLE
-            myDelegate = myDelegate1 + myDelegate2+myDelegate3;
+            //ВАЖНО! когда мы делаем комбинированный делегат, то вернется значение, которое ВЕРНЕТ ПОСЛЕДНИЙ МЕТОД, А выполнятся
+            //будут методы в том порядке, в котором они сообщались!
+            myDelegate = myDelegate1 + myDelegate2 + myDelegate3;
 
             Console.WriteLine("Введите число от 1 до 7");
             string choise = Console.ReadLine();
@@ -43,43 +45,43 @@ namespace _004_Delegates
             switch (choise)
             {
                 case "1":
-                {
-                    myDelegate1.Invoke();
-                    break;
-                }
+                    {
+                        myDelegate1.Invoke();
+                        break;
+                    }
                 case "2":
-                {
-                    myDelegate2.Invoke();
-                    break;
-                }
+                    {
+                        myDelegate2.Invoke();
+                        break;
+                    }
                 case "3":
-                {
-                    myDelegate3.Invoke();
-                    break;
-                }
+                    {
+                        myDelegate3.Invoke();
+                        break;
+                    }
                 case "4": //Группировкм == комбинация, разгрупировка == разкомбинация.
-                {
-                    var myDelegate4 = myDelegate - myDelegate1; //Знак "-" - это знак разгрупировки
-                    myDelegate4.Invoke();                       //при разгрупировке точно так же делается еще один делегат.
-                    break;
-                }
+                    {
+                        var myDelegate4 = myDelegate - myDelegate1; //Знак "-" - это знак разгрупировки
+                        myDelegate4.Invoke();                       //при разгрупировке точно так же делается еще один делегат.
+                        break;
+                    }
                 case "5":
-                {
-                    var myDelegate5 = myDelegate - myDelegate2; //Знак "-" - это знак разгрупировки
-                    myDelegate5.Invoke();
-                    break;
-                }
+                    {
+                        var myDelegate5 = myDelegate - myDelegate2; //Знак "-" - это знак разгрупировки
+                        myDelegate5.Invoke();
+                        break;
+                    }
                 case "6":
-                {
-                    var myDelegate6 = myDelegate - myDelegate2; //Знак "-" - это знак разгрупировки
-                    myDelegate6.Invoke();
-                    break;
-                }
+                    {
+                        var myDelegate6 = myDelegate - myDelegate2; //Знак "-" - это знак разгрупировки
+                        myDelegate6.Invoke();
+                        break;
+                    }
                 case "7":
-                {
-                    myDelegate.Invoke();
-                    break;
-                }
+                    {
+                        myDelegate.Invoke();
+                        break;
+                    }
                 default:
                     Console.WriteLine("Вы ввели недопустимое значение");
                     break;
