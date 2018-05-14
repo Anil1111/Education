@@ -371,7 +371,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_Ref", "009_Ref\009_Ref.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C Sharp Essential", "C Sharp Essential", "{1A2F0BDF-EAD4-443F-A974-468D30CA7873}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ВИДЕОУРОК №1. ВВЕДЕНИЕ В ООП, КЛАССЫ И ОБЪЕКТЫ", "ВИДЕОУРОК №1. ВВЕДЕНИЕ В ООП, КЛАССЫ И ОБЪЕКТЫ", "{792B10A6-5B2D-44B6-81B2-5F18FAB38BF1}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "001_ВИДЕОУРОК №1. ВВЕДЕНИЕ В ООП, КЛАССЫ И ОБЪЕКТЫ", "001_ВИДЕОУРОК №1. ВВЕДЕНИЕ В ООП, КЛАССЫ И ОБЪЕКТЫ", "{792B10A6-5B2D-44B6-81B2-5F18FAB38BF1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Примеры с полного урока", "Примеры с полного урока", "{B10E67CE-4D40-47CF-BB0A-530A07A6DFFF}"
 EndProject
@@ -415,7 +415,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Taskk2", "002_Taskk2\00
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Taskk", "003_Taskk\003_Taskk.csproj", "{383C74FB-7933-4AF0-814C-4255A9FA4EAC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ВИДЕОУРОК №2. КЛАССЫ И ОБЪЕКТЫ. ДИАГРАММЫ КЛАССОВ.", "ВИДЕОУРОК №2. КЛАССЫ И ОБЪЕКТЫ. ДИАГРАММЫ КЛАССОВ.", "{568AF189-D6A0-4C12-BB30-83ECAB068E95}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "002_ВИДЕОУРОК №2. КЛАССЫ И ОБЪЕКТЫ. ДИАГРАММЫ КЛАССОВ.", "002_ВИДЕОУРОК №2. КЛАССЫ И ОБЪЕКТЫ. ДИАГРАММЫ КЛАССОВ.", "{568AF189-D6A0-4C12-BB30-83ECAB068E95}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Примеры с полного урока", "Примеры с полного урока", "{5DBAC05A-DC82-4470-8008-726E0A131212}"
 EndProject
@@ -445,7 +445,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Task2", "002_Task2\002_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_Task3", "02_Task3\02_Task3.csproj", "{D88E4872-8C30-4D65-B4DD-E544E7F4852A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ВИДЕОУРОК №3. НАСЛЕДОВАНИЕ И ПОЛИМОРФИЗМ", "ВИДЕОУРОК №3. НАСЛЕДОВАНИЕ И ПОЛИМОРФИЗМ", "{72DF2CEA-0873-4F23-83C7-A0171E53BC31}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "003_ВИДЕОУРОК №3. НАСЛЕДОВАНИЕ И ПОЛИМОРФИЗМ", "003_ВИДЕОУРОК №3. НАСЛЕДОВАНИЕ И ПОЛИМОРФИЗМ", "{72DF2CEA-0873-4F23-83C7-A0171E53BC31}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Примеры с полного урока", "Примеры с полного урока", "{ABD483DB-E367-4A19-A9BB-2E32D3BCC644}"
 EndProject
@@ -487,7 +487,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Task2", "003_Task2\003_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Task4", "003_Task4\003_Task4.csproj", "{2177185E-FC56-4048-BA5B-E4530DA38459}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ВИДЕОУРОК №4. АБСТРАКЦИЯ. АБСТРАКТНЫЕ КЛАССЫ И ИНТЕРФЕЙСЫ", "ВИДЕОУРОК №4. АБСТРАКЦИЯ. АБСТРАКТНЫЕ КЛАССЫ И ИНТЕРФЕЙСЫ", "{1014EA9C-71AF-4EC9-8AAE-F2D94E57A2E4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "004_ВИДЕОУРОК №4. АБСТРАКЦИЯ. АБСТРАКТНЫЕ КЛАССЫ И ИНТЕРФЕЙСЫ", "004_ВИДЕОУРОК №4. АБСТРАКЦИЯ. АБСТРАКТНЫЕ КЛАССЫ И ИНТЕРФЕЙСЫ", "{1014EA9C-71AF-4EC9-8AAE-F2D94E57A2E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Примеры с полного урока", "Примеры с полного урока", "{14102C85-95F5-4F7F-9ED4-E448C7EA2C0D}"
 EndProject
@@ -537,7 +537,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_AdditionalTask2", "004_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_Task", "004_Task\004_Task.csproj", "{A4C8AD5C-01A0-4E42-94E6-8F5731171F7B}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ВИДЕОУРОК №5. МАССИВЫ И ИНДЕКСАТОРЫ", "ВИДЕОУРОК №5. МАССИВЫ И ИНДЕКСАТОРЫ", "{6D97F868-6233-4F20-883A-D71AB4D5BC81}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "005_ВИДЕОУРОК №5. МАССИВЫ И ИНДЕКСАТОРЫ", "005_ВИДЕОУРОК №5. МАССИВЫ И ИНДЕКСАТОРЫ", "{6D97F868-6233-4F20-883A-D71AB4D5BC81}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Start Примеры с полного урока", "Start Примеры с полного урока", "{6A3D138C-5B48-49D5-A8BA-8AA6DD55B1F9}"
 EndProject
@@ -595,7 +595,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Task2", "005_Task2\005_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Split", "Split\Split.csproj", "{2E3F45B5-784B-42A7-A78E-194A7A25D33A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ВИДЕОУРОК №6. СТАТИЧЕСКИЕ И ВЛОЖЕННЫЕ КЛАССЫ", "ВИДЕОУРОК №6. СТАТИЧЕСКИЕ И ВЛОЖЕННЫЕ КЛАССЫ", "{09875623-A7BC-4E0D-AC36-1E3EA7078914}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "006_ВИДЕОУРОК №6. СТАТИЧЕСКИЕ И ВЛОЖЕННЫЕ КЛАССЫ", "006_ВИДЕОУРОК №6. СТАТИЧЕСКИЕ И ВЛОЖЕННЫЕ КЛАССЫ", "{09875623-A7BC-4E0D-AC36-1E3EA7078914}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Примеры с полного урока", "Примеры с полного урока", "{6B93FD45-F79C-445E-AC90-94C026CB7E03}"
 EndProject
@@ -665,7 +665,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Task4", "006_Task4\006_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Task5", "006_Task5\006_Task5.csproj", "{84914E62-BB3F-4C78-8965-95065F949BC7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ВИДЕОУРОК №7. СТРУКТУРЫ И ИХ РАЗНОВИДНОСТИ", "ВИДЕОУРОК №7. СТРУКТУРЫ И ИХ РАЗНОВИДНОСТИ", "{481618EA-E0DD-4197-AC80-3FDF3C58973F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "007_ВИДЕОУРОК №7. СТРУКТУРЫ И ИХ РАЗНОВИДНОСТИ", "007_ВИДЕОУРОК №7. СТРУКТУРЫ И ИХ РАЗНОВИДНОСТИ", "{481618EA-E0DD-4197-AC80-3FDF3C58973F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Примеры с полного урока", "Примеры с полного урока", "{75FF9B00-2DAE-4528-9CB1-C98672FB2AAF}"
 EndProject
@@ -725,7 +725,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Task5", "007_Task5\007_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017_StringRef", "017_StringRef\017_StringRef.csproj", "{D8642FEB-D215-4DD5-BBA0-246EE52F7FF4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ВИДЕОУРОК №8. ПЕРЕЧИСЛЕНИЯ (ENUM)", "ВИДЕОУРОК №8. ПЕРЕЧИСЛЕНИЯ (ENUM)", "{8A6E4732-16E9-404B-B54F-670F75F0323A}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "008_ВИДЕОУРОК №8. ПЕРЕЧИСЛЕНИЯ (ENUM)", "008_ВИДЕОУРОК №8. ПЕРЕЧИСЛЕНИЯ (ENUM)", "{8A6E4732-16E9-404B-B54F-670F75F0323A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Примеры с полного урока", "Примеры с полного урока", "{4A8DFE52-FE8B-4D6B-B48A-FFAD384006B8}"
 EndProject
@@ -775,7 +775,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_Task2", "008_Task2\008_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_Task3", "008_Task3\008_Task3.csproj", "{D22C4B26-438A-40A8-BD62-3DFB36F10E51}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ВИДЕОУРОК №9. ДЕЛЕГАТЫ", "ВИДЕОУРОК №9. ДЕЛЕГАТЫ", "{98FF720B-C98A-4E19-952C-A2EBCFEFC3A3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "009_ВИДЕОУРОК №9. ДЕЛЕГАТЫ", "009_ВИДЕОУРОК №9. ДЕЛЕГАТЫ", "{98FF720B-C98A-4E19-952C-A2EBCFEFC3A3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Примеры с полного урока", "Примеры с полного урока", "{3FF9B4E1-9FA0-46ED-B46B-054150C82D28}"
 EndProject
@@ -818,6 +818,46 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_Task33", "009_Task33\009_Task33.csproj", "{165579E4-9802-4F8F-98A6-B96AB4065928}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_Task44", "009_Task44\009_Task44.csproj", "{42D07E14-1EE9-49B7-8357-1A233B4FA7C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "010_ВИДЕОУРОК №10. УНИВЕРСАЛЬНЫЕ ШАБОНЫ(ОБОБЩЕНИЯ)", "010_ВИДЕОУРОК №10. УНИВЕРСАЛЬНЫЕ ШАБОНЫ(ОБОБЩЕНИЯ)", "{4536CBCA-C87D-4591-88D9-8ABDC6C52232}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Примеры с полного урока", "Примеры с полного урока", "{BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Generics", "001_Generics\001_Generics.csproj", "{9202030C-FCF0-4C0E-BFFD-A424994EB402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_Generic", "002_Generic\002_Generic.csproj", "{123CC8B1-072C-43E1-882B-40E867E1ACCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Generic(Method)", "003_Generic\003_Generic(Method).csproj", "{828368FE-46FE-4359-8FAF-985BF3ACC097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_Generics(Delegate)", "004_Generics\004_Generics(Delegate).csproj", "{CAA69393-5827-41DA-A71E-D167A4BAACA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Generics_Covariant_Contvariant", "005_Generics_Covariant_Contvariant\005_Generics_Covariant_Contvariant.csproj", "{CB9B6265-3514-4898-9165-0AFC29D9FEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Generics", "006_Generics\006_Generics.csproj", "{3F428A41-01B7-45CB-ACEB-236AAC09BFEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_Generics_Real_Covariant", "007_Generics\007_Generics_Real_Covariant.csproj", "{6ED2D309-C172-4552-B9D5-0FF0F308D3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "008_Generics_ContrVariant", "008_Generics_ContrVariant\008_Generics_ContrVariant.csproj", "{C54699FB-8554-48BF-A720-2F77B1A0ECCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "009_GenericDelegate", "009_GenericDelegate\009_GenericDelegate.csproj", "{7CCF507A-6BE0-4FAE-94A7-F61FAA94DD48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "010_Generics_ContrVariant", "010_Generics_ContrVariant\010_Generics_ContrVariant.csproj", "{FC955A81-1E75-4D4E-9FEC-D34C8744F824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "011_Generics", "011_Generics\011_Generics.csproj", "{306D40A1-B989-44DF-8040-8490FC82F319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "012_Generics_Bad_Example", "012_Generics_Bad_Example\012_Generics_Bad_Example.csproj", "{03F16993-7115-4520-8199-CF7F78B6011E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NullableTypes", "NullableTypes", "{EC526DA3-9326-4E25-9E5D-8ABFBF20C694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_NullableTypes", "001_NullableTypes\001_NullableTypes.csproj", "{223C7CA3-B9D5-437E-AEFC-6D1E6C4D7CD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_NullableTypes", "002_NullableTypes\002_NullableTypes.csproj", "{098FE0CE-BA09-41D3-B839-E868E97A79FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "003_Nullable", "003_Nullable\003_Nullable.csproj", "{C78C624D-39F5-4735-9B69-F4E465155472}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_NullableTypes", "004_NullableTypes\004_NullableTypes.csproj", "{A5D37065-F866-4183-AC63-1ADC7ABDE6F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_NullableTypes", "005_NullableTypes\005_NullableTypes.csproj", "{9A3F293A-9C77-4887-8AC9-C5C5B17A60EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -2173,6 +2213,74 @@ Global
 		{42D07E14-1EE9-49B7-8357-1A233B4FA7C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42D07E14-1EE9-49B7-8357-1A233B4FA7C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42D07E14-1EE9-49B7-8357-1A233B4FA7C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9202030C-FCF0-4C0E-BFFD-A424994EB402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9202030C-FCF0-4C0E-BFFD-A424994EB402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9202030C-FCF0-4C0E-BFFD-A424994EB402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9202030C-FCF0-4C0E-BFFD-A424994EB402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{123CC8B1-072C-43E1-882B-40E867E1ACCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{123CC8B1-072C-43E1-882B-40E867E1ACCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{123CC8B1-072C-43E1-882B-40E867E1ACCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{123CC8B1-072C-43E1-882B-40E867E1ACCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828368FE-46FE-4359-8FAF-985BF3ACC097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828368FE-46FE-4359-8FAF-985BF3ACC097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828368FE-46FE-4359-8FAF-985BF3ACC097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828368FE-46FE-4359-8FAF-985BF3ACC097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAA69393-5827-41DA-A71E-D167A4BAACA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAA69393-5827-41DA-A71E-D167A4BAACA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAA69393-5827-41DA-A71E-D167A4BAACA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAA69393-5827-41DA-A71E-D167A4BAACA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB9B6265-3514-4898-9165-0AFC29D9FEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB9B6265-3514-4898-9165-0AFC29D9FEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB9B6265-3514-4898-9165-0AFC29D9FEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB9B6265-3514-4898-9165-0AFC29D9FEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F428A41-01B7-45CB-ACEB-236AAC09BFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F428A41-01B7-45CB-ACEB-236AAC09BFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F428A41-01B7-45CB-ACEB-236AAC09BFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F428A41-01B7-45CB-ACEB-236AAC09BFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED2D309-C172-4552-B9D5-0FF0F308D3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED2D309-C172-4552-B9D5-0FF0F308D3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED2D309-C172-4552-B9D5-0FF0F308D3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED2D309-C172-4552-B9D5-0FF0F308D3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C54699FB-8554-48BF-A720-2F77B1A0ECCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C54699FB-8554-48BF-A720-2F77B1A0ECCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C54699FB-8554-48BF-A720-2F77B1A0ECCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C54699FB-8554-48BF-A720-2F77B1A0ECCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCF507A-6BE0-4FAE-94A7-F61FAA94DD48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCF507A-6BE0-4FAE-94A7-F61FAA94DD48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCF507A-6BE0-4FAE-94A7-F61FAA94DD48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCF507A-6BE0-4FAE-94A7-F61FAA94DD48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC955A81-1E75-4D4E-9FEC-D34C8744F824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC955A81-1E75-4D4E-9FEC-D34C8744F824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC955A81-1E75-4D4E-9FEC-D34C8744F824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC955A81-1E75-4D4E-9FEC-D34C8744F824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{306D40A1-B989-44DF-8040-8490FC82F319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{306D40A1-B989-44DF-8040-8490FC82F319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{306D40A1-B989-44DF-8040-8490FC82F319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{306D40A1-B989-44DF-8040-8490FC82F319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03F16993-7115-4520-8199-CF7F78B6011E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F16993-7115-4520-8199-CF7F78B6011E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F16993-7115-4520-8199-CF7F78B6011E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F16993-7115-4520-8199-CF7F78B6011E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{223C7CA3-B9D5-437E-AEFC-6D1E6C4D7CD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{223C7CA3-B9D5-437E-AEFC-6D1E6C4D7CD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{223C7CA3-B9D5-437E-AEFC-6D1E6C4D7CD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{223C7CA3-B9D5-437E-AEFC-6D1E6C4D7CD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098FE0CE-BA09-41D3-B839-E868E97A79FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098FE0CE-BA09-41D3-B839-E868E97A79FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098FE0CE-BA09-41D3-B839-E868E97A79FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098FE0CE-BA09-41D3-B839-E868E97A79FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C78C624D-39F5-4735-9B69-F4E465155472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C78C624D-39F5-4735-9B69-F4E465155472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C78C624D-39F5-4735-9B69-F4E465155472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C78C624D-39F5-4735-9B69-F4E465155472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5D37065-F866-4183-AC63-1ADC7ABDE6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5D37065-F866-4183-AC63-1ADC7ABDE6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5D37065-F866-4183-AC63-1ADC7ABDE6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5D37065-F866-4183-AC63-1ADC7ABDE6F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3F293A-9C77-4887-8AC9-C5C5B17A60EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3F293A-9C77-4887-8AC9-C5C5B17A60EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3F293A-9C77-4887-8AC9-C5C5B17A60EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3F293A-9C77-4887-8AC9-C5C5B17A60EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -2583,6 +2691,26 @@ Global
 		{D662AA5D-DCF3-4723-A7D0-8C89389D9807} = {D21C8FF0-4B47-4050-8C35-63CDE9206ECA}
 		{165579E4-9802-4F8F-98A6-B96AB4065928} = {D21C8FF0-4B47-4050-8C35-63CDE9206ECA}
 		{42D07E14-1EE9-49B7-8357-1A233B4FA7C5} = {D21C8FF0-4B47-4050-8C35-63CDE9206ECA}
+		{4536CBCA-C87D-4591-88D9-8ABDC6C52232} = {1A2F0BDF-EAD4-443F-A974-468D30CA7873}
+		{BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD} = {4536CBCA-C87D-4591-88D9-8ABDC6C52232}
+		{9202030C-FCF0-4C0E-BFFD-A424994EB402} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{123CC8B1-072C-43E1-882B-40E867E1ACCC} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{828368FE-46FE-4359-8FAF-985BF3ACC097} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{CAA69393-5827-41DA-A71E-D167A4BAACA5} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{CB9B6265-3514-4898-9165-0AFC29D9FEDB} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{3F428A41-01B7-45CB-ACEB-236AAC09BFEA} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{6ED2D309-C172-4552-B9D5-0FF0F308D3DA} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{C54699FB-8554-48BF-A720-2F77B1A0ECCE} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{7CCF507A-6BE0-4FAE-94A7-F61FAA94DD48} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{FC955A81-1E75-4D4E-9FEC-D34C8744F824} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{306D40A1-B989-44DF-8040-8490FC82F319} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{03F16993-7115-4520-8199-CF7F78B6011E} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{EC526DA3-9326-4E25-9E5D-8ABFBF20C694} = {BDA3BFA6-9E8A-4064-977F-9EB23B19B3BD}
+		{223C7CA3-B9D5-437E-AEFC-6D1E6C4D7CD8} = {EC526DA3-9326-4E25-9E5D-8ABFBF20C694}
+		{098FE0CE-BA09-41D3-B839-E868E97A79FE} = {EC526DA3-9326-4E25-9E5D-8ABFBF20C694}
+		{C78C624D-39F5-4735-9B69-F4E465155472} = {EC526DA3-9326-4E25-9E5D-8ABFBF20C694}
+		{A5D37065-F866-4183-AC63-1ADC7ABDE6F8} = {EC526DA3-9326-4E25-9E5D-8ABFBF20C694}
+		{9A3F293A-9C77-4887-8AC9-C5C5B17A60EB} = {EC526DA3-9326-4E25-9E5D-8ABFBF20C694}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EC651EF-E473-43E4-90BF-6591E27E66DB}
