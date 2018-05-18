@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace _004_Task
 {
-    interface IPlayable:
+    interface IPlayable
     {
         void Play();
         void Pause();
         void Stop();
     }
 
-    interface IRecordable:
+    interface IRecordable
     {
         void Record();
         void Pause();

@@ -37,12 +37,12 @@ namespace _004_Properties
         static void Main(string[] args)
         {
             MyClass instance = new MyClass();
-            instance.Field = "fool";
+            //instance.Field = "fool";
             Console.WriteLine(instance.Field);
 
             Console.WriteLine(new string('-', 30));
 
-            instance.Field = "hello world";
+            //nstance.Field = "hello world";
             Console.WriteLine(instance.Field);
 
             //Delay
