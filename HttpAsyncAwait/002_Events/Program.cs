@@ -11,9 +11,9 @@ namespace _002_Events
     public class MyClass
     {
         private EventDelegate myEvent;
-        public event EventDelegate MyEvent
+        public event EventDelegate MyEvent //если указываем add и remove то должно быть И add И remove. Если не будет одного - будет ошибка.
         {
-            add { myEvent += value; }  // как свойство. можна ставить разные проверки
+            add { myEvent += value; }  // как свойство. можна ставить разные проверки. В КАЧЕВСТВЕ ПОЛЯ ВЫСТУПАЕТ ДЕЛЕГАТ myEvent
             remove { myEvent -= value; } // и тут тоже  - пример с гипнотизером и мамой, которая пытается открепить обработчик "дружбы с Васькой"
         }
 

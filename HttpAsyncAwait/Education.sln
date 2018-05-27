@@ -941,7 +941,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Интересные при
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp2", "WindowsFormsApp2\WindowsFormsApp2.csproj", "{FD712B0D-DE4A-4A31-8F23-ABB2388E9322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyProject", "MyProject\MyProject.csproj", "{26896D67-0476-4FF1-8462-D1D544532233}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVP-ModelViewPresenter", "MyProject\MVP-ModelViewPresenter.csproj", "{26896D67-0476-4FF1-8462-D1D544532233}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
