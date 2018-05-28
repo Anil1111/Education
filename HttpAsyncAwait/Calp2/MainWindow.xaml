@@ -1,0 +1,26 @@
+﻿<Window x:Class="Calp2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calp2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="191,67,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="154" Name="Operand_1"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="191,144,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="154" RenderTransformOrigin="0.185,0.597" Name="Operand_2"/>
+        <TextBox HorizontalAlignment="Left" Height="40" Margin="191,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="154" Name="Result_textbox"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="402,67,0,0" VerticalAlignment="Top" Width="39" Height="26" RenderTransformOrigin="0.51,-0.963" Click="Button_Click"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="457,67,0,0" VerticalAlignment="Top" Width="39" Height="26" RenderTransformOrigin="0.51,-0.963" Click="Button_Click_1"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="402,126,0,0" VerticalAlignment="Top" Width="39" Height="26" RenderTransformOrigin="0.51,-0.963" Click="Button_Click_2"/>
+        <Button Content="/" HorizontalAlignment="Left" Margin="457,126,0,0" VerticalAlignment="Top" Width="39" Height="26" RenderTransformOrigin="0.51,-0.963" Click="Button_Click_3"/>
+        <Button Content="Close" HorizontalAlignment="Left" Margin="402,226,0,0" VerticalAlignment="Top" Width="94" Height="26" RenderTransformOrigin="0.51,-0.963" Click="Button_Click_4"/>
+        <TextBlock HorizontalAlignment="Left" Margin="131,77,0,0" TextWrapping="Wrap" Text="a
+                   " VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="130,147,0,0" TextWrapping="Wrap" Text="b
+                   " VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="131,239,0,0" TextWrapping="Wrap" Text="Result
+                   " VerticalAlignment="Top" RenderTransformOrigin="0.319,8.932"/>
+
+    </Grid>
+</Window>
