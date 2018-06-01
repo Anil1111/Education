@@ -30,6 +30,8 @@ namespace _001_Threads
                 Console.WriteLine(new string(' ', 10) + "Secondary");
             }
         }
+        //СИНХРОННО - В КОНТЕКСТЕ ПЕРВИЧНОГО ПОТОКА.
+        //ЭТИ МЕТОДЫ БУДУТ ВЫПОЛНЯТСЯ АССИНХРОННО - т.е В КОНТЕКСТЕ ВТОРИЧНОГО ПОТОКА.
         static void Method2()
         {
             while (true)
@@ -51,9 +53,10 @@ namespace _001_Threads
                 Console.WriteLine(new string(' ', 40) + "Fifthly");
             }
         }
-        static void Main(string[] args)
-        {
-            ThreadStart delegateStart1 =new ThreadStart(Method);
+        static void Main(string[] args) //метод Main ЭТО ВСЕГДА ПЕРВИЧНЫЙ ПОТОК
+        {//А из первичного потока создаются вторичные
+            //для каждого потока выделяется 1мб стека.
+            ThreadStart delegateStart1 = new ThreadStart(Method);
             Thread thread1 = new Thread(delegateStart1); //Thread - некое обьектно-ориентированное представление отдельного потока.
             thread1.Start();
 
@@ -66,13 +69,29 @@ namespace _001_Threads
             thread3.Start();
 
             ThreadStart delegateStart4 = new ThreadStart(Method4);
-            Thread thread4 = new Thread(delegateStart4);
-            thread4.Start();
+            Thread thread4 = new Thread(delegateStart4);//Конфигурируем делегатом(конфигурируем - это передаем в качестве агрумента)
+            thread4.Start(); //как только выполняется Start - процессор сразу начинает выполнять поток
 
             while (true)
             {
                 Console.WriteLine("Primary");
             }
+
+            //СТЕКА ВСЕ РАВНО БОЛЬШЕ ИЛИ МЕНЬШЕ 1МБ НИКТО НЕ ДАСТ. //ОТРЕЖТЕ МНЕ ПОЛОВИНУ ЛИТРОВОЙ БАНКИ МЁДА
+            //public Thread(ThreadStart start, int maxStackSize); - бесполезные конструкторы
+            //public Thread(ParameterizedThreadStart start, int maxStackSize); - бесполезные конструкторы
+
+            //Планировщик потоков управляеN ПКП- Программируемый констроллер прерываний.
+            //Есть процессор, у которого есть ножка Int(errapt) a и эта ножка связанна с ПКП.
+
+            //Планировщик поток выдает каждой программа определенное кол-во КВАНТОВ ПРОЦЕССОРНОГО ВРЕМЕНИ.
+            //Пример с Васей-  ешь печенье 3 секунды, выплевывай то, что не дожевал, когда будет будет опять твое время - дожуешь-
+            // чувак выплевывает - это означает кеширование промежуточных вычислений потока.
+
+            //Процессор, выполнив программу, прашует у Планировщика потоков - что ему делать дальше.
+
+            //Планировщик потоков, ПКП и т.д - это часть OS (Windows), а раньше на Assembler`e такие программы делали сами.
+
         }
     }
 }
