@@ -21,12 +21,23 @@ namespace _006_Threads
                 Thread.Sleep(500);
             }
         }
+        static void WriteThird()
+        {
+            while (true)
+            {
+                Console.WriteLine(new string(' ', 30) + "Thirdly");
+                Thread.Sleep(500);
+            }
+        }
         static void Main(string[] args)
         {
             //Работа вторичного потока
             ThreadStart writeSecond = new ThreadStart(WriteSecond);
             Thread thread = new Thread(writeSecond);
             thread.Start();
+
+            Thread thread2 = new Thread(WriteThird);
+            thread2.Start();
 
             //Работа первичного потока
             for (int i = 0; i < 10; i++)
@@ -36,9 +47,12 @@ namespace _006_Threads
             }
 
             //Завершить работу вторичного потока
-            //thread.IsBackground = true; - если true, то когда основной поток заканчивает свою работу
+            //background - фоновый. А логика такая - что когда основные потоки заканчивают работу, то программа закрывается
+            //даже если фоновые потоки не завершили свою работу.
+            thread.IsBackground = true; //- если true, то когда основной поток заканчивает свою работу
             //то программа завершается. 
             //Если false - то будет ожидаться когда вторичные потоки закончат свою работу.
+            thread2.IsBackground = false; //все потоки будут ждать этот поток.
         }
     }
 }
