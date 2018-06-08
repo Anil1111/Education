@@ -11,7 +11,7 @@ namespace UserCollection
     //Для применения foraech, необходимо, чтобы класс реализовывал интерфейс - IEnumerable.
     public class UserCollection : IEnumerable, IEnumerator //интерфейс - это контракт
     {
-        public Element[] elementsArray = null;
+        private Element[] elementsArray = null; //скрываем массив
 
         public UserCollection()
         {
@@ -23,21 +23,34 @@ namespace UserCollection
         }
         //указатель текущей позиции элемента в массиве.
         private int position = -1;
-        public IEnumerator GetEnumerator()
+
+        //--------------------------------------------------------------------
+        //Реализация интерфейса IEnumerator(синоним слова ИТЕРАТОР - перечислитель).
+        public bool MoveNext() //иди дальше - проверяет position и если его длина меньше, чем длина массива - делает position++
         {
-            throw new NotImplementedException();
+            if (position < elementsArray.Length - 1)
+            {
+                position++;
+                return true;
+            }
+            else
+            {
+                //Reset(); убрать коммент и все будет ок
+                return false;
+            }
         }
 
-        public bool MoveNext()
+        public void Reset() //position = -1;
         {
-            throw new NotImplementedException();
+            position = -1;
         }
 
-        public void Reset()
-        {
-            throw new NotImplementedException();
-        }
+        public object Current => elementsArray[position]; //будет обращаться к массиву elementsArray и в качестве индекса указывать поле position;
 
-        public object Current { get; }
+        //Реализация интерфейса IEnumerable - метод в этом интерфейсе должен возвращать перечислитель(возвращает  кассира)
+        IEnumerator IEnumerable.GetEnumerator() //На экземпляре не видим private методов интерфейсов!
+        {
+            return this as IEnumerator;
+        }
     }
 }
