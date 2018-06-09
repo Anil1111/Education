@@ -1003,7 +1003,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_Yield_while_true", "005
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Yield_while_true", "006_Yield_while_true\006_Yield_while_true.csproj", "{1950C2C6-634C-4DBE-95E1-0DF7B2A2A710}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterIEnumerable", "InterIEnumerable\InterIEnumerable.csproj", "{9D3B8F60-7BEE-49EB-A480-F9F33134A235}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterIEnumerable_recovered from Reflector", "InterIEnumerable\InterIEnumerable_recovered from Reflector.csproj", "{9D3B8F60-7BEE-49EB-A480-F9F33134A235}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
