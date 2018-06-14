@@ -20,7 +20,7 @@ namespace _014_Task1
             }
 
             var a = list[500];
-            var secondElement = list[2];
+            var secondElement = list[1];
             Console.WriteLine(secondElement);
 
             var arrayLength = list.Length;

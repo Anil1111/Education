@@ -22,7 +22,7 @@ namespace UserCollection
             elementsArray[3] = new Element("D", 4, 40);
         }
         //указатель текущей позиции элемента в массиве.
-        private int position = -1;
+        private int position = -1;//-1 потому что сначала foreach вызывает метод MoveNext(), а потом считывает значение position.
 
         //--------------------------------------------------------------------
         //Реализация интерфейса IEnumerator(синоним слова ИТЕРАТОР - перечислитель).
