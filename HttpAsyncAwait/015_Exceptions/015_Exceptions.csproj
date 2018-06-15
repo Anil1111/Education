@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{446A15E2-BBD2-4946-88CB-C41FEAB8D366}</ProjectGuid>
+    <ProjectGuid>{157E7B0E-0331-42B4-AA25-5DE864A04122}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Race</RootNamespace>
-    <AssemblyName>Race</AssemblyName>
+    <RootNamespace>_015_Exceptions</RootNamespace>
+    <AssemblyName>015_Exceptions</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game\Car.cs" />
-    <Compile Include="Game\CarBody.cs" />
-    <Compile Include="Game\Engine.cs" />
-    <Compile Include="Game\EngineIsDeadException.cs" />
-    <Compile Include="Game\Game.cs" />
-    <Compile Include="Game\Road.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

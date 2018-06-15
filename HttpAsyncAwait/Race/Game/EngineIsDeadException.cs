@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace Race.Game
 {
-    class EngineIsDeadException:Exception
+    class EngineIsDeadException : Exception
     {
-        public EngineIsDeadException(string message) :base(message)
-        { }
+        public EngineIsDeadException () { }
+        public EngineIsDeadException(string message) : base(message) { }
+        public EngineIsDeadException(string message, Exception innerException) : base(message,innerException) { }
     }
 }

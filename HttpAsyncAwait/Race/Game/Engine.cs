@@ -8,7 +8,7 @@ namespace Race.Game
 {
     class Engine
     {
-        private bool engineIsDeal = false;
+        private bool engineIsDead = false;
         private int currentSpeed = 0;
         private const int maxSpeed = 200;
 
@@ -19,7 +19,7 @@ namespace Race.Game
                 throw new ArgumentOutOfRangeException("Для разгона, ускорение должно быть больше нуля!");
             }
 
-            if (engineIsDeal)
+            if (engineIsDead)
             {
                 return 0;
             }
@@ -29,13 +29,24 @@ namespace Race.Game
                 //если текущая скорость превышает максимально допустимую.
                 if (currentSpeed > maxSpeed)
                 {
-                    engineIsDeal = true;
+                    engineIsDead = true;
                     currentSpeed = 0;
                     Console.Title = "Текущая скорость" + currentSpeed;
 
-                    EngineIsDeadException ex = new EngineIsDeadException("Двигатель перегрелся.");
+                    var ex = new EngineIsDeadException("Двигатель перегрелся.");
 
                     //Устанавливает гиперссылку связываемую с исключением:
+                    ex.HelpLink = "http://CarsRace.com/errorService";
+                    //добавляем дополнительную информацию о ошибке
+                    ex.Data.Add("Время поломки   :", $"Двигательно вышел из строя {DateTime.Now}");
+                    ex.Data.Add("Причина поломки :", $"Вы перевысили допустимую скорость - {maxSpeed}. Двигатель сгорел");
+
+                    throw ex;
+                }
+                else
+                {
+                    Console.Title = "Текущая скорость = " + currentSpeed;
+                    return currentSpeed;
                 }
             }
         }
