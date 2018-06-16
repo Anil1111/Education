@@ -31,16 +31,16 @@ namespace _013_Expections
                 catch (Exception e)
                 {
                     Console.WriteLine("Catch 2: " + e.Message);
-                    throw;
+                    throw; //это исключание "перезатирается" исключением ниже:  throw new Exception("New Exception");
                 }
                 finally // отработает, даже не смотря на то, что в catch было проброшенно ещё одно исключение.
                 {
                     Console.WriteLine("Finally 2:");
-                    throw new Exception("New Exception"); //создаем новое исключение.
+                    throw new Exception("New Exception"); //создаем новое исключение. 
                 }
             }
-            catch (Exception e)
-            {
+            catch (Exception e)// в блок catch попадет исключение throw new Exception("New Exception"); т.к оно брошено последним.
+            { //throw; - не попадет
                 Console.WriteLine("Catch 3: " + e.Message);
             }
             finally
