@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _002_Operators
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Point a = new Point(1, 1);
+            Point b = new Point(2, 2);
+
+            Console.WriteLine($"a + b = {a + b}");
+            Console.WriteLine($"a - b = {a - b}");
+            Console.WriteLine($"a * b = {a * b}");
+            Console.WriteLine($"a / b = {a / b}");
+
+            Point c = new Point(0, 0);
+            c += a;
+            Console.WriteLine($"c = {c}");
+
+            //Delay
+            Console.ReadKey();
+        }
+    }
+}
