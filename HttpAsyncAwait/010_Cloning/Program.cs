@@ -21,14 +21,14 @@ namespace _010_Cloning
             MyDerivedClass original = new MyDerivedClass();
             original.age = 42;
             original.name = "Alex";
-
-            Console.WriteLine(original.age + " " + original.name + " " + MyDerivedClass.CompanyName);
+            
+            Console.WriteLine(original.age + " " + original.name + " " + MyDerivedClass.CompanyName + " " + original.GetHashCode());
 
             //Глубокое Клонирование.
             MyDerivedClass clone = original.MemberwiseClone() as MyDerivedClass;
-            Console.WriteLine(clone.age + " " + clone.name + " " + MyDerivedClass.CompanyName+"\n");
+            Console.WriteLine(clone.age + " " + clone.name + " " + MyDerivedClass.CompanyName + " " + clone.GetHashCode()+"\n");
 
-            //Так выглядит поверхностное клонирование:
+            //Так выглядит поверхностное клонирование: при поверхностном клонировании GetHashCode() будет один т.к обьек то один и останется
             MyDerivedClass clone1 = original; //т.е просто создали новую переменную и запихнули в него ссылку на тот же обьект.
 
             //Проверка на глубокое клонирование - меняем клон и если оригинал не поменяется, значит клон - отдельный обьект!
@@ -38,7 +38,7 @@ namespace _010_Cloning
 
             Console.WriteLine(original.age + " " + original.name + " " + MyDerivedClass.CompanyName);
             Console.WriteLine(clone.age + " " + clone.name + " " + MyDerivedClass.CompanyName);
-            
+
             //Delay
             Console.ReadKey();
         }

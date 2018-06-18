@@ -8,6 +8,7 @@ namespace _006_ReferenceEquals
 {
     class Program
     {
+        //этот метод применяют с null.(С# для тестировщиков) ReferenceEquals(obj1, null)
         static void Main(string[] args)
         {
             //ReferenceEquals сравнивает НЕ обьекты, а ССЫЛКИ! Т.е сравниваются значения адресов объектов в памяти
