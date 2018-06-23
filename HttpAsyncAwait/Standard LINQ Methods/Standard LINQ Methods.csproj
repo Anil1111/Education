@@ -7,7 +7,7 @@
     <ProjectGuid>{D9D986E0-F5A4-4BD8-9C3D-65C195D23F5E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Standard_LINQ_Methods</RootNamespace>
-    <AssemblyName>Standard_LINQ_Methods</AssemblyName>
+    <AssemblyName>Standard LINQ Methods</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

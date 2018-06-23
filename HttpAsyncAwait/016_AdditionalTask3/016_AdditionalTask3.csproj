@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{82295D16-A4ED-44E6-B1DB-79FDB0FE2AB0}</ProjectGuid>
+    <ProjectGuid>{948AE05A-2C6A-48DF-A48D-74ABC85F982E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_002_Sequences_in_Original_Order</RootNamespace>
-    <AssemblyName>002_Sequences in Original Order</AssemblyName>
+    <RootNamespace>_016_AdditionalTask3</RootNamespace>
+    <AssemblyName>016_AdditionalTask3</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="House.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

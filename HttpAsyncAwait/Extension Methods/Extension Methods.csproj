@@ -7,7 +7,7 @@
     <ProjectGuid>{94D5E8F2-9AB4-4C36-ADD3-8666743F2162}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Extension_Methods</RootNamespace>
-    <AssemblyName>Extension_Methods</AssemblyName>
+    <AssemblyName>Extension Methods</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

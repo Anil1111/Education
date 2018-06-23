@@ -7,7 +7,7 @@
     <ProjectGuid>{656DB86B-2236-49C0-9774-B595F82D82B8}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_001_New_Sequences</RootNamespace>
-    <AssemblyName>_001_New_Sequences</AssemblyName>
+    <AssemblyName>001_New Sequences</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
