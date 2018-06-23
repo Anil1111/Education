@@ -33,7 +33,7 @@ namespace _008_Implicit
         static void Main(string[] args)
         {
             byte variable = 1;
-            //Неявное преобразование byte-to-Digit
+            //Неявное преобразование byte-to-Digit (Casting)
             Digit digit = variable; //в скобках ничего нету т.к это оператор НЕявного преобразования.
             Console.WriteLine(digit);
 

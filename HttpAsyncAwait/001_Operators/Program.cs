@@ -23,6 +23,7 @@ namespace _001_Operators
         }
         //Использовать ключевое слово operator, можно только вместе с ключевым словом static!
         //Перегрузка оператора +.
+        //В аргументах этой перегрузки должен быть хотя бы один с типом того класса, где мы обьявляем эту перегрузку(т.е Point). //public static Point operator +(int p1, int p2)
         public static Point operator +(Point p1, Point p2)
         {
             return new Point(p1.x + p2.x, p1.y + p2.y);

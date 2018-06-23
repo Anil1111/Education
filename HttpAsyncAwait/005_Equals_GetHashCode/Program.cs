@@ -55,8 +55,8 @@ namespace _005_Equals_GetHashCode
             Console.WriteLine(Object.ReferenceEquals(a, b)); // - false! Несмотря на то, что hashcod`ы совпадают, НО ReferenceEquals проверяет не hashcod`ы а ССЫЛКИ на обькты(адреса в памяти).
 
             Console.WriteLine(a.GetHashCode() + "     " + b.GetHashCode());
-            Console.WriteLine(Object.Equals(a, b)); // хз почему true. hash`ы же разные, если закоментить override int GetHashCode
-            //если закоментиь  override bool Equals - то будет false
+            Console.WriteLine(Object.Equals(a, b)); // trueпотому, что метод Object.Equals использует обычный экземплярный Equals. Если там хэши не провеются, то и в Object.Equals проверяться не будут.
+            //если закоментиь  override bool Equals - то будет false потому, что по умолчанию Equals использует GetHashCode(оптимизация проверок)
 
             //Delay
             Console.ReadKey();

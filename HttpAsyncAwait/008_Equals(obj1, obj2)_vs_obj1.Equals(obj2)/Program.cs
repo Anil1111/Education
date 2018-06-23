@@ -42,7 +42,7 @@ namespace _008_Equals_obj1__obj2__vs_obj1.Equals_obj2_
 
             Console.WriteLine("a == b : {0}", a.Equals(b));
             Console.WriteLine("a == c : {0}", a.Equals(c));
-
+            //Если переопределить экземплярный Equals то и статичский тоже поменятся т.к он внутри себя использует экземплярный!
             Console.WriteLine("a == b : {0}", Equals(a, b)); //Статический метод Equals(obj1, obj2) можем вызывать без 'Object.' потому, что все наследуется от Object!
             Console.WriteLine("a == c : {0}", Object.Equals(a, c));
 

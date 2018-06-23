@@ -33,7 +33,7 @@ namespace _007_Explicit
         static void Main(string[] args)
         {
             byte variable = 1;
-            //Явное преобразование byte-to-Digit
+            //Явное преобразование byte-to-Digit (Casting)
             Digit digit = (Digit) variable;
             Console.WriteLine(digit);
 

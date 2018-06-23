@@ -18,6 +18,17 @@ namespace _004_If_else_If_else
             else
                 Console.WriteLine($"{nameof(a)} == {nameof(b)}"); //Ветвь 1
 
+
+            if (0 != 1)
+            {
+                var afdf = 1;
+            }
+            //else if(0 !=3) //это условие и проверятся не будет если в блок if (0 != 1) зашло
+            //if (0 != 2) //это условие БУДЕТ проверятся т.к это совмем другой if
+            {
+                var ddd = 2;
+            }
+
             //Delay
             Console.ReadKey();
         }

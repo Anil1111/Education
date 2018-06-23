@@ -16,7 +16,7 @@ namespace _006_ReferenceEquals
             //Т.е на куче есть обьект. в а переменной obj1 и obj2 есть АДРЕС этого объекта. Так вот эти адреса и сверяются.
             Object obj1 = new Object();
             Object obj2 = new Object();
-            //ReferenceEquals проверяет НЕ HashCod`ы!!  И даже если он будут одинакові, как в предидущем примере, то все равно будут сверятся ССЫЛКИ на объекты!
+            //ReferenceEquals проверяет НЕ HashCod`ы!!  И даже если он будут одинаковы, как в предидущем примере, то все равно будут сверятся ССЫЛКИ на объекты!
             Console.WriteLine(Object.ReferenceEquals(obj1, obj2));
 
             obj1 = obj2;
