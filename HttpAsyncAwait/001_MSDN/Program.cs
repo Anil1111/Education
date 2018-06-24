@@ -81,6 +81,8 @@ namespace _001_MSDN
 
             // The following statement causes a compiler error.
             //Console.WriteLine(typeof(dynamic));
+
+            Console.WriteLine(default(dynamic) == null ? "Null" : "????"); //returns Null
         }
     }
 }
