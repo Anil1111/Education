@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7EDC6D3C-6726-4B89-9A6B-9E4C4779E08B}</ProjectGuid>
+    <ProjectGuid>{28FFE520-0883-4C89-B95F-452D4A4654A8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_010_LINQ_Select</RootNamespace>
-    <AssemblyName>010_LINQ_Select</AssemblyName>
+    <RootNamespace>_003_Dynamic_non_static_fields</RootNamespace>
+    <AssemblyName>003_Dynamic_non-static-fields</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

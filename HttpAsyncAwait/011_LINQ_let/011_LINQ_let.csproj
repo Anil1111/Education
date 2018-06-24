@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7EDC6D3C-6726-4B89-9A6B-9E4C4779E08B}</ProjectGuid>
+    <ProjectGuid>{4946E92F-247E-46BF-9593-260FC7B7043E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_010_LINQ_Select</RootNamespace>
-    <AssemblyName>010_LINQ_Select</AssemblyName>
+    <RootNamespace>_011_LINQ_let</RootNamespace>
+    <AssemblyName>011_LINQ_let</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7EDC6D3C-6726-4B89-9A6B-9E4C4779E08B}</ProjectGuid>
+    <ProjectGuid>{E2E1D0B5-15C1-4228-A4FF-88BC0F20A7E9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_010_LINQ_Select</RootNamespace>
-    <AssemblyName>010_LINQ_Select</AssemblyName>
+    <RootNamespace>_005_Dynamic_arguments_and_return_type</RootNamespace>
+    <AssemblyName>005_Dynamic_arguments_and_return_type</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
