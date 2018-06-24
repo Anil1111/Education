@@ -7,7 +7,7 @@
     <ProjectGuid>{096F9940-3EEC-40A7-B490-287B5F7E2DED}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_016_Dynamic_calculator_example</RootNamespace>
-    <AssemblyName>_016_Dynamic_calculator_example</AssemblyName>
+    <AssemblyName>016_Dynamic_calculator_example</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -7,7 +7,7 @@
     <ProjectGuid>{5F320B2F-C48F-4101-90A4-0738E0191874}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_015_Dynamic_operator_overload_restriction</RootNamespace>
-    <AssemblyName>_015_Dynamic_operator_overload_restriction</AssemblyName>
+    <AssemblyName>015_Dynamic_operator_overload_restriction</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

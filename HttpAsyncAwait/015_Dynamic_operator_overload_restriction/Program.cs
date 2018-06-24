@@ -24,7 +24,7 @@ namespace _015_Dynamic_operator_overload_restriction
         }
 
         //В унарных операторах недопустимо использовать динамические типы(ВООБЩЕ).
-        //public static  dynamic operator ++(dynamic pointA) //- недопустмо
+        //public static  dynamic operator ++(dynamic pointA) //- недопустмоы
         public static Point operator ++(Point pointA)
         {
             return new Point(pointA.x + 1, pointA.y + 1);

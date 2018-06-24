@@ -7,7 +7,7 @@
     <ProjectGuid>{FBDE95F8-BE20-473E-83A3-1CB5DAAA102F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_017_Dynamic_yield</RootNamespace>
-    <AssemblyName>_017_Dynamic_yield</AssemblyName>
+    <AssemblyName>017_Dynamic_yield</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
