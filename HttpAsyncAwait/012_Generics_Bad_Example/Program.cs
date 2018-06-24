@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _012_Generics_Bad_Example
 {
-    //Плохой пример, так делать не рекомендуется!
+    //Плохой пример, так делать не рекомендуется! Тут помогут dynamic типы.
     public class MyClass<T>
     {
         public T Add(T a, T b)
