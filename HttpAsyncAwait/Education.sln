@@ -1259,6 +1259,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "016_Dynamic_calculator_exam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "017_Dynamic_yield_ad-hoc_polymorphism", "017_Dynamic_yield\017_Dynamic_yield_ad-hoc_polymorphism.csproj", "{FBDE95F8-BE20-473E-83A3-1CB5DAAA102F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "004_SingletonMethods", "004_SingletonMethods\004_SingletonMethods.csproj", "{BDA57876-F642-42AE-B0C8-C50C1415E31F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -3321,6 +3323,10 @@ Global
 		{FBDE95F8-BE20-473E-83A3-1CB5DAAA102F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBDE95F8-BE20-473E-83A3-1CB5DAAA102F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBDE95F8-BE20-473E-83A3-1CB5DAAA102F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDA57876-F642-42AE-B0C8-C50C1415E31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDA57876-F642-42AE-B0C8-C50C1415E31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDA57876-F642-42AE-B0C8-C50C1415E31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDA57876-F642-42AE-B0C8-C50C1415E31F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -3951,6 +3957,7 @@ Global
 		{5F320B2F-C48F-4101-90A4-0738E0191874} = {4EC812C5-937D-40E0-B48C-811FE34CC62E}
 		{096F9940-3EEC-40A7-B490-287B5F7E2DED} = {4EC812C5-937D-40E0-B48C-811FE34CC62E}
 		{FBDE95F8-BE20-473E-83A3-1CB5DAAA102F} = {4EC812C5-937D-40E0-B48C-811FE34CC62E}
+		{BDA57876-F642-42AE-B0C8-C50C1415E31F} = {14E61067-3576-4927-B7A7-10930315B1D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EC651EF-E473-43E4-90BF-6591E27E66DB}
