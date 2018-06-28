@@ -36,6 +36,7 @@ namespace _004_LINQ_extend_methods
             // select number * 2;
 
             //query - переменная ЗАПРОСА , //number - переменная ДИАПАЗОНА, 
+            //Компилятор сначала ищет этим методы в этом namespace, а потом уже в других именно по этому сейчас вызовутся методы из этого namespace
             var query = numbers.Where(number => number % 2 == 0).Select(number => number * 2);
 
             //item - переменная ИТЕРАЦИИ,  

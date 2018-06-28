@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace _013_LINQ_group_x_by_someCondition
 {
+    // Каждый запрос солден заканчиваться либо select`ом 
     //group - является средством для разделения ввода запроса.
     class Program
     {
