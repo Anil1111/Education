@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F69783F3-37C6-444E-9E45-5E86C85F1D6B}</ProjectGuid>
+    <ProjectGuid>{436F72A7-CB7B-42E2-A4E8-FE7E1A993CFD}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_003_BestPractices_in_writting_LINQ</RootNamespace>
-    <AssemblyName>003_BestPractices_in_writting_LINQ</AssemblyName>
+    <RootNamespace>_017_AdditionalTask1</RootNamespace>
+    <AssemblyName>017_AdditionalTask1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

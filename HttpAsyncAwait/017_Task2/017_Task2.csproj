@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F69783F3-37C6-444E-9E45-5E86C85F1D6B}</ProjectGuid>
+    <ProjectGuid>{F54CC7D3-57BD-43E2-9C3F-8614463A737E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_003_BestPractices_in_writting_LINQ</RootNamespace>
-    <AssemblyName>003_BestPractices_in_writting_LINQ</AssemblyName>
+    <RootNamespace>_017_Task2</RootNamespace>
+    <AssemblyName>017_Task2</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,6 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Auto.cs" />
+    <Compile Include="Customercs.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

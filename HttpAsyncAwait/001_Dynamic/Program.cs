@@ -13,6 +13,7 @@ namespace _001_Dynamic
     {
         static void Main(string[] args)
         {
+            //C var не получится менять тип данных по ходу выполнения программы
             dynamic variable = 1;
             Console.WriteLine(variable);
             Console.WriteLine(variable.GetType());

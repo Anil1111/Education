@@ -7,7 +7,7 @@
     <ProjectGuid>{3DC6E5BF-4AD9-4CD4-A76E-34C883459148}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_002_ComplexQueryCreation</RootNamespace>
-    <AssemblyName>_002_ComplexQueryCreation</AssemblyName>
+    <AssemblyName>002_ComplexQueryCreation</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
