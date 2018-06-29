@@ -10,8 +10,50 @@ namespace Examples
     {
         private static string[] names = { "Tom", "Dick", "Harry", "Mary" };
         private static string[] forUnion = { "Tom", "Dick", "Harry", "Borry" };
+
+        private static List<string> namesWithClones = new List<string> { "Tom", "Dick", "Harry", "Mary", "Tom", "Dick", "Harry", "Mary" };
         static void Main(string[] args)
         {
+            //1. Операторы, которые позволяют фильтровать
+            var where = names.Where(x => x.Contains("T"));
+
+            //Take
+            //takes elements from start
+            var take = names.Take(1); //returns "Tom"
+
+
+            //Skip
+            //skips elements and return other elements
+            var skip = names.Skip(1); //returns "Dick", "Harry", "Mary"
+
+            //SkipWhile
+            //будет пропускать элементы до тех пор, пока выполняется условие. 
+            //Когда условие перестанет выполнятся, то вернет оставшаяся коллекция элементов.
+            var skipWhile = names.SkipWhile(x => x.Contains("o")); //returns "Dick", "Harry", "Mary"
+
+
+            //TakeWhile
+            //будет брать элементы до тех пор, пока выполняется условие.
+            //Когда условие перестанет выполняться, то вернет те элементы, которые он успел взять
+            var takeWhile = names.TakeWhile(x => !x.Equals("Harry")); //returns "Tom", "Dick"
+
+
+            //Distinct
+            //Фильтрует последовательность таким образом, чтобы в ней не было повторяющихся элементов.
+            var distinctNames = namesWithClones.Distinct();
+
+            //2. Проекцирование(операция проекции)
+
+            //Select
+            var selectedNames = names.Select(x => x.ToUpper());
+
+            //SelectMany
+            var selectedManyNamesSqlSyntax = from n in names
+                from n2 in names
+                select new { Name = n, Name2 = n2 };
+
+            var selectedManyNamesExtensionSyntax = names.SelectMany(n => names, (n, n2) => new { Name = n, Name2 = n2 });
+
             //3. Объединение
             //names.Join()
             //names.GroupJoin()
