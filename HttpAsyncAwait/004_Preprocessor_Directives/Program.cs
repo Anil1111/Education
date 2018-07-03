@@ -20,7 +20,7 @@ namespace _004_Preprocessor_Directives
             //2.
 
             Console.WriteLine("Строка #1");
-#line hidden //Скрывает строку от отладчика.
+#line hidden //Скрывает строку от отладчика. Т.е код будет выполнен, но дебагер не нем останавливаться НЕ БУДЕТ
             Console.WriteLine("Скрытая строка."); //Установить BreakPoint
 #line default
             Console.WriteLine("Строка #2");

@@ -1,6 +1,8 @@
 ﻿
 //#define DEBUG
 
+//Так же в свойствах(Properties) сборки можно выбрать Define DEBUG constant и Define TRACE constant
+
 using System;
 using System.Collections.Generic;
 using System.Linq;

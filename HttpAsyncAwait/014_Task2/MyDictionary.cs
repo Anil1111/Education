@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _014_Task2
 {
-    class MyDictionary<TKey, TValue> : IEnumerable<object>, IEnumerator<object>
+    public class MyDictionary<TKey, TValue> : IEnumerable<object>, IEnumerator<object>
     {
         private TKey[] keyArray = null;
         private TValue[] valueArray = null;

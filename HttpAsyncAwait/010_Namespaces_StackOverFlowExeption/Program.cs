@@ -41,6 +41,8 @@ namespace _010_Namespaces_StackOverFlowExeption
     {
         static void Main(string[] args)
         {
+            //Тут будут вызывыться конструкторы по умолчанию, которые будут инициализироваться все поля в классе
+            //при этом вызывая другие конструкторы!
             MyClassA myA = new MyClassA();
             MyClassB myB = new MyClassB();
             MyClassC myC = new MyClassC();
