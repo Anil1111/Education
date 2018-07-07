@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AE480094-DEEC-4967-B2D5-5ADDC61DC637}</ProjectGuid>
+    <ProjectGuid>{753E40B7-1376-4E0B-9611-2398C71B81EC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_004_Collection_yield_realisation</RootNamespace>
-    <AssemblyName>004_Collection_yield_realisation</AssemblyName>
+    <RootNamespace>_001_ICollection</RootNamespace>
+    <AssemblyName>001_ICollection</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,11 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Element.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserCollection.cs" />
-    <Compile Include="UserCollection_simpler.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
