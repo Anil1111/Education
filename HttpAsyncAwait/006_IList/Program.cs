@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _002_IList
+namespace _006_IList
 {
     class Program
     {
         static void Main(string[] args)
         {
-            var test = new SimpleList { "one", "two", "three", "four", "five", "six", "seven", "eight" };
+            var test = new SimplestList { "one", "two", "three", "four", "five", "six", "seven", "eight" };
 
             test.PrintContents();
 
