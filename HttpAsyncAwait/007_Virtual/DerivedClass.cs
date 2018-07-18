@@ -8,7 +8,7 @@ namespace _007_Virtual
 {
     class DerivedClass:BaseClass
     {
-        //Переопределение метода базового класса
+        //Переопределение метода базового класса, НО НЕ МЕНЯЯ СИГНАТУРУ ЭТОГО МЕТОДА. Только реализацию
         public  override void Method()
         {
             Console.WriteLine("Method from DerivedClass");
