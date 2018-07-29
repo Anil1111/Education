@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _006_StaticConstructor
 {
-    class NotStaticClass
+    class NotStaticClass :BaseClass
     {
         // Если класс содержит статические поля, может быть предоставлен СТАТИЧЕСКИЙ
         // конструктор, который инициализиует эти поля при загрузке класса.
