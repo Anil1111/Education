@@ -25,7 +25,7 @@ namespace _001_BitArray
             Console.WriteLine(bits.Length);
             Console.WriteLine(bits.Count);
 
-            //Ценность BitArray в том, что он позволяет выполнить логические операции над двумя объектами(смотри след. пример)
+            //ИСТИННАЯ Ценность BitArray в том, что он позволяет выполнить логические операции над двумя объектами(смотри след. пример)
 
             //Delay
             Console.ReadKey();

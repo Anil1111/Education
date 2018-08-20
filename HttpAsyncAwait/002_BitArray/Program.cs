@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -32,6 +33,14 @@ namespace _002_BitArray
             var resultBits3 = (bits1.Clone() as BitArray)?.Xor(bits2.Clone() as BitArray);
 
             var resultBits4 = (bits1.Clone() as BitArray).Not();
+
+            foreach (var bit in resultBits)
+            {
+                Console.WriteLine(bit);
+            }
+
+            //Delay
+            Console.ReadKey();
         }
     }
 }
