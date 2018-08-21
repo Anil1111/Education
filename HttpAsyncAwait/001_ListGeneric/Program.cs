@@ -26,7 +26,7 @@ namespace _001_ListGeneric
 
 
             Console.WriteLine("a. Sort(Comparison<T> comparison)");
-            intList.Sort(new Comparison<int>((x, y) => y - x));
+            intList.Sort(new Comparison<int>((x, y) => y - x)); //сообщаем с делегатом лямбда выражение
 
             PrintList(intList);
 
