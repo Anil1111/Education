@@ -29,6 +29,7 @@ namespace _010_HashTable
 
             //ОБРАТИ ВНИМАНИЕ! Порядок вывода будет не таким как порядок, в котором мы добавляли элементы в коллекцию
             //Почему? Потому, что значения сортирутся по ХЭШкоду.
+            //У Hashtable - DictionaryEntry, а у SortedList - KeyValuePair
             foreach (DictionaryEntry name in emailLookup)
             {
                 Console.WriteLine(name.Value);
