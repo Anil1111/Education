@@ -54,6 +54,7 @@ namespace _014_NameValueCollection
             Console.WriteLine(new string('-', 50));
             Console.WriteLine("App.Config appSetings values");
 
+            //мы так делали в тестах: пихали значение в App.config, а потом использовали в самой програме.
             var appSettings = ConfigurationSettings.AppSettings; //добавил в App.config пару значений
             foreach (string appSetting in appSettings)
             {

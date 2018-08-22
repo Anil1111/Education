@@ -10,14 +10,15 @@ namespace _003_BitVector32
             //Суть масок в том, чтобы управлять отдеьными битами.
 
             var vector = new BitVector32(0);
-
+            //Метод BitVector32.CreateMask() по умолчанию создает маску где задействоан только первый бит.
             int firstBit = BitVector32.CreateMask();          // ... 0000 0001 B - 1D //одна цифра - задействована - 1 байт
             int secondBit = BitVector32.CreateMask(firstBit); // ... 0000 0010 B - 2D //две цифры задействованы - 2 байта
             int thirdBit = BitVector32.CreateMask(secondBit); // ... 0000 0100 B - 4D //три задействованы - 4 байта(а занято может быть либо 2 либо 4)
 
             Console.WriteLine(firstBit + " " + secondBit + " " + thirdBit); // Test
 
-            vector[firstBit] = true;
+            //true - это 1, false - это 0
+            vector[firstBit] = true; 
             vector[secondBit] = true;
 
             Console.WriteLine($"{vector.Data} должно быть 3");
