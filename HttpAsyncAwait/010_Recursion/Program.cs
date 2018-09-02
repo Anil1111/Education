@@ -10,6 +10,7 @@ namespace _010_Recursion
     {//Нахожждение наибольшего делителя двух целых чисел
         static int Calculate(int a, int b)
         {
+            var c = a % b;
             if (a % b == 0)
                 return b;
             else

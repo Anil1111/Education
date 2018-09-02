@@ -11,8 +11,8 @@ namespace _009_Methods01
         static void Converter(int n)
         {
             int temp = n % 2;
-            if(n>=2)
-                Converter(n/2);
+            if (n >= 2)
+                Converter(n / 2);
             Console.Write(temp);
         }
         static void Main(string[] args)
@@ -21,7 +21,7 @@ namespace _009_Methods01
             Converter(n);
 
 
-            int c = 18% 15;
+            int c = 18 % 15;
             Console.WriteLine(c);
             //Delay
             Console.ReadKey();

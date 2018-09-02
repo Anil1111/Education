@@ -11,8 +11,10 @@ namespace _004_While
         static void Main(string[] args)
         {
             int counter = 0;
-            while(counter<3)
+            while (counter < 3)
             {
+                if(counter ==2)
+                    continue; //break;
                 //counter++;
                 Console.WriteLine($"Counter {counter++}");
             }
