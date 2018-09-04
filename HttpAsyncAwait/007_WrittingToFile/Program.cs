@@ -11,7 +11,7 @@ namespace _007_WrittingToFile
     {
         static void Main(string[] args)
         {
-            //Создаем файл в текущем каталоге.
+            //Создаем файл в текущем каталоге. - ЭТО СЧИТАЕТСЯ, ТО путь относительный, т.е в текущем каталоге.
             var stream = new FileStream("Test.dat", FileMode.OpenOrCreate, FileAccess.ReadWrite);
 
             //Записываем байты в файл.
