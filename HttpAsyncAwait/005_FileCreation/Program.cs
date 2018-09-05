@@ -13,22 +13,30 @@ namespace _005_FileCreation
         static void Main(string[] args)
         {
             //Создаем новый файл в корне диска D
-            var file = new FileInfo(@"D:\Test.txt");
+            var file = new FileInfo(@"D:\Test.txt"); //можем указать любой путь и файл, ДАЖЕ НЕ СУЩЕСТВУЮЩИЙ!
             //using (FileStream stream1 = file.Create())
             //{
 
             //}
+
+            //Через FileInfo мы НЕ РАБОТАЕМ с файлом на запись или на чтение.
+            //С файлом мы работаем через Стримы(FileStream, StreamWriter, StreamReader).
+            //FileStream сам по себе умеет работать ТОЛЬКО С БАЙТАМИ
             FileStream stream = file.Create(); //Когда мы создаем файл, нам автоматически возвращается ссылка 
             //на экземпляр класса FileStream, который и будет работать с этим файлом. Т.е одни механизмы создают файлы,
             //а другие с ними работают.
             //Т.е после создания файла, метод Create услужливо возвращает нам механизм, который нам позволит работать с этим файлом.
 
             //Выводим основную информацию о созданном файле.
-            Console.WriteLine($"Full Name    : {file.FullName}");
-            Console.WriteLine($"Attributes   : {file.Attributes.ToString()}");
-            Console.WriteLine($"CreationTime : {file.CreationTime}");
+            Console.WriteLine($"Full Name       : {file.FullName}");
+            Console.WriteLine($"Attributes      : {file.Attributes.ToString()}");
+            Console.WriteLine($"CreationTime    : {file.CreationTime}");
+            Console.WriteLine($"Name            : {file.Name}");
+            Console.WriteLine($"CreationTime    : {file.CreationTime}");
+            Console.WriteLine($"LastAcessTime   : {file.LastAccessTime}"); 
+            Console.WriteLine($"LastWriteTime   : {file.LastWriteTime}");
 
-            Console.WriteLine("Надмите любую клавишу для удаление файла");
+            Console.WriteLine("Нажмите любую клавишу для удаление файла");
             Console.ReadKey();
 
             //Закрываем FileStream

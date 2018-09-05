@@ -22,7 +22,7 @@ namespace _006_FileCreationAndRemoval
             //ВТОРОЙ СПОСОБ СОЗДАТЬ ФАЙЛ! Вызываем метод Open
             FileStream stream = file.Open(FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None);
 
-            //Выводим основную информацию о файле
+            //Выводим основную информацию о файле - там ещё МНОГО ДРУГИХ СВОЙСТВ
             Console.WriteLine($"Full Name      : {file.FullName}");
             Console.WriteLine($"Attribute      : {file.Attributes.ToString()}");
             Console.WriteLine($"Creation time  : {file.CreationTime}");
@@ -31,6 +31,9 @@ namespace _006_FileCreationAndRemoval
             Console.ReadKey();
 
             //Закрываем FileStream
+            //это очень хорошо, что мы не можем использовать один и тот же файл одновременно несколькими программами.
+            //например это бы привело к "режиму гонки", когда программы соревнутся кто первый запишет в файл и это бы
+            //привело к использовани неактуальных данных и т.д
             stream.Close();
 
             //Удаляем файл

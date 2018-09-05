@@ -17,6 +17,7 @@ namespace _010_BufferedStream
         static void Main(string[] args)
         {
             FileStream file = File.Create(@"D:\test.txt");
+
             BufferedStream buffered = new BufferedStream(file);
 
             StreamWriter writer  = new StreamWriter(buffered);

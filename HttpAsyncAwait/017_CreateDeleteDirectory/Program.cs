@@ -1,24 +1,39 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace _004_DisksInfoAndDirectoryRemoval
+namespace _017_CreateDeleteDirectory
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Выводим информацию о дисках.
-
-            string[] drives = Directory.GetLogicalDrives();
-            Console.WriteLine("Имещиеся диски:");
-
-            foreach (var drive in drives)
-            {
-                Console.WriteLine($"- {drive}");
-            }
+            //!!!ВАЖНО! Очень важно ставить try-catch в операциях с файловой системой. Наведи на любой метод и 
+            //посмотри сколько исключений может посыпаться. Лучше предохраняться или же хотя бы проверять файл на наличие прежде чем с ним работать.
 
             var directory = new DirectoryInfo(@"D:\TESTDIR");
+            Console.WriteLine(directory.FullName);
 
+            //Создание в TESTDIR новых подкаталогов.
+            if (directory.Exists)
+            {
+                //Создаем D:\TESTDIR\SUBDIR.  т.е папку внутри directory(@"D:\TESTDIR")
+                directory.CreateSubdirectory("SUBDIR");
+
+                //Создаем  D:\TESTDIR\MyDir\SubMyDir
+                directory.CreateSubdirectory(@"MyDir\SubMyDir");
+
+                Console.WriteLine("Директории созданы");
+            }
+            else
+            {
+                Console.WriteLine($"Директория с именем: {directory.Name} не существует.");
+            }
+
+            //Выводим информацию о папках.
             Console.WriteLine("\nГотовимся удалять");
             Console.WriteLine(directory.FullName + @"\MyDir\SubMyDir");
             Console.WriteLine(directory.FullName + @"\SUBDIR");
@@ -44,6 +59,9 @@ namespace _004_DisksInfoAndDirectoryRemoval
             {
                 Console.WriteLine(e);
             }
+
+            //Delay
+            Console.ReadKey();
 
             //Delay
             Console.ReadKey();
