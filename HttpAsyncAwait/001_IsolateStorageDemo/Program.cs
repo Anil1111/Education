@@ -32,10 +32,10 @@ namespace _001_IsolateStorageDemo
         static void Main(string[] args)
         {
             //Создание изолированного хранилища уровня приложения. [В данном примере не используется]
-            IsolatedStorageFile machineStorage = IsolatedStorageFile.GetMachineStoreForAssembly();
+            IsolatedStorageFile machineStorage = IsolatedStorageFile.GetMachineStoreForAssembly();//для всего компьютера(следственно для всех пользователей)
 
             //Создание изолированного хранилища уровня .Net сборки.
-            IsolatedStorageFile userStorage = IsolatedStorageFile.GetUserStoreForAssembly();
+            IsolatedStorageFile userStorage = IsolatedStorageFile.GetUserStoreForAssembly();//для этого конкретного пользователя
 
             //Создание файлового потока Для доступа к изолорованному хранилищу(чтобы работать с ним).
             //с указанием: Имена файла, FileMode, объекта хранилища.  "UserSettings.set" - путь к файлу относительно песочницы(в 3м примере будет немного другой путь)

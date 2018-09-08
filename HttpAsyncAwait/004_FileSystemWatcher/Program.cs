@@ -19,7 +19,7 @@ namespace _004_FileSystemWatcher
             //Зарегестрировать обработчики событий.
             watcher.Created += new  FileSystemEventHandler(WatcherChanged);  //тип делегата указывать на обязательно т.к оно есть в событии
             watcher.Deleted += WatcherChanged;
-            watcher.Renamed += new RenamedEventHandler(WatcherChanged);
+            watcher.Renamed += new RenamedEventHandler(WatcherRenaged);  // если мы переименовываем файл, то возникает событие Renamed,а не Changed
             watcher.Changed += WatcherChanged;
 
             //При наблюдении за файловой системой число изменений может превысить вохможности FileSystemWacher.
@@ -45,6 +45,11 @@ namespace _004_FileSystemWatcher
         static void WatcherError(object sender, ErrorEventArgs e)
         {
             Console.WriteLine(e.GetException());
+        }
+
+        static void WatcherRenaged(object sender, RenamedEventArgs e)
+        {
+            Console.WriteLine($"Renamed from {e.OldFullPath} to {e.FullPath}");
         }
     }
 }

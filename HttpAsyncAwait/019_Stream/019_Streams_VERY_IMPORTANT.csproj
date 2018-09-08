@@ -7,7 +7,7 @@
     <ProjectGuid>{D31BC80B-F685-44B2-9740-E31EF969CC8F}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_019_Stream</RootNamespace>
-    <AssemblyName>_019_Stream</AssemblyName>
+    <AssemblyName>019_Stream</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

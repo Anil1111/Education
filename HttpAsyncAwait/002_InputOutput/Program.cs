@@ -23,7 +23,7 @@ namespace _002_InputOutput
                 Console.WriteLine($"Root           : {directory.Root}");
 
                 //Получаем все файлы с расширением .txt
-                FileInfo[] files = directory.GetFiles("*.txt");
+                FileInfo[] files = directory.GetFiles("*.txt"); //"*.txt" - фильтр. Можем его указывать, а можем и не указывать.
 
                 //Сколько файлов с расширением .txt в данной директории
                 Console.WriteLine($"Найдено {files.Length} *.txt файлов\n");
