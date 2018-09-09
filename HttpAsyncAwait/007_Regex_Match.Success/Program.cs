@@ -21,7 +21,7 @@ namespace _007_Regex_Match.Success
             string input = "";
             input += "<a href='http://vasya.com'>Home-page</a>";
             input += "<a href='http://google.com'>Search</a>";
-            input += "<a href='http://ya.ru'>Yandex</a>";
+            input += "<a href='https://ya.ru'>Yandex</a>";
             input += "<a href='http://yandex.ru'>Yandex Full</a>";
             input += "<a href='http://microsoft.com'>Microsoft</a>";
 

@@ -54,14 +54,15 @@ namespace _001_Strings
             //Метод String.Intern() - извлекает системную ссылку
             //на указанный строковой литерал пула интернирования.
 
-            //string stringNew = Console.ReadLine(); //ввел c:\windows\system и оно создало новый объект в пуле интернирования
+            //string stringNew = Console.ReadLine(); //ввел c:\windows\system и оно создало новый объект в пуле интернирования 
+            //ПОТОМУ, ЧТО ПРОВЕРКА ПРОИСХОДИТЬ ТОЛЬКО ВО ВРЕМЯ КОМПИЛЯЦИИ!дальше ее нету и чтобы ее вызвать нужно использовать String.Intern()
             //даже не смотря на то, что такой там уже есть. Соответственно - Object.ReferenceEquals(stringNew, string2) - False
 
             string stringNew = String.Intern(Console.ReadLine());  //ввел c:\windows\system, а оно побежало в пулл интернирования
             //я спросило "а есть такая строка?", она есть и метод String.Intern вернул ссылку на уже сещуствующую в пулле интернирования строку.
 
             //Сравнение
-            Console.WriteLine("Object.ReferenceEquals(string1, string2) {0}",
+            Console.WriteLine("Object.ReferenceEquals(stringNew, string2) {0}",
                 Object.ReferenceEquals(stringNew, string2));
             //при обычном  string stringNew = Console.ReadLine(); - вывело False, потому, что не проверяло есть ли такая строка в пулле интернирования и создало ещё одну такую же
             //а при string stringNew = String.Intern(Console.ReadLine());- вывело True - потому, что проверило есть ли такая строка в пулле интерирования и не стало создавать ещё одну.
