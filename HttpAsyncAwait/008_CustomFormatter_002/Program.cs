@@ -8,6 +8,10 @@ using System.Threading.Tasks;
 namespace _008_CustomFormatter_002
 {
     //Создание форматированного польовательского вывода.
+    //Проблемма в том, что злой математик создал класс Complex, реализовал в нем интерфейс IFormattable и все.
+    //Мы не можем поменять реализванный из IFormattable метод ToString(). Он на не подходит, но класс Complex очень хочется использовать
+    //Что делать?
+    //Нужно реализовать 2 интерфейса IFormatProvider и ICustomFormatter.
     public class ComplexTestFormatter : IFormatProvider, ICustomFormatter
     {
         //Реализация  IFormatProvider. Неявно вызывается методом String.Format(...
@@ -25,6 +29,9 @@ namespace _008_CustomFormatter_002
         //IFormatProvider formatProvider - формат (в прошлых примера было CultureInfo.CurrentCulture)
         public string Format(string format, object arg, IFormatProvider formatProvider)
         {
+            //Вот ради этого все это и было сделано! Мы можем отфрматировать экземпляр класса Complex, как хотим=> метод String.Format вызовет этот метод.
+            //var testFormatter = new ComplexTestFormatter();
+            //stringComplex = String.Format(testFormatter, "{0:TEST}", complex);
             if (arg is Complex && format == "TEST")
             {
                 var complex = (Complex)arg;
@@ -38,7 +45,7 @@ namespace _008_CustomFormatter_002
 
                 return builder.ToString();
             }
-            else
+            else //Если что-то пошло не так, то прийдется использовать то, что сделал злой математик.
             {
                 var formattable = arg as IFormattable;
 
@@ -99,6 +106,7 @@ namespace _008_CustomFormatter_002
             //testFormatter - задает правила форматирования
             //"{0:TEST}" сам формат
             //complex - само число
+            //Мы передаем экземпляр класса ComplexTestFormatter в метод  String.Format, чтобы был использовал именно тот форматер, а не тот, что сделал злой математик.
             stringComplex = String.Format(testFormatter, "{0:TEST}", complex);
             //Метод String.Format вызывает метод GetFormat - он возвращает экзампляр класса, у которого есть метод Format, и потом уже происходит форматирование.
 

@@ -12,7 +12,7 @@ namespace _010_Unicoding_001
         static void Main(string[] args)
         {
             //Строка для изменения кодировок.
-            string leUnicodeStr = "apple";
+            string someText = "apple";
             
             //Настойки кодировок.
             //Unicode - Получает кодировка для формата UTF-16 с ПРЯМЫМ прядком байтов.
@@ -26,15 +26,15 @@ namespace _010_Unicoding_001
             Encoding utf8 = Encoding.UTF8;
 
             //Массивы байтов для хранения конвертированной строки. 
-            byte[] leUnicodeBytes = leUnicode.GetBytes(leUnicodeStr);                        //В Unicode
-            //                                      from        to         сами байты
+            byte[] leUnicodeBytes = leUnicode.GetBytes(someText);                        //В Unicode
+            //                                   из  кодировки   в кодировку   сами байты
             byte[] beUnicodeBytes = Encoding.Convert(leUnicode, beUnicode, leUnicodeBytes);  //В EndianUnicode
-            //                                  from        to         сами байты
+            //                              из  кодировки   в кодировку   сами байты
             byte[] utf8Bytes = Encoding.Convert(leUnicode, utf8, leUnicodeBytes);            //В UTF8
 
 
             //Выводим содержимое массово на экран.
-            Console.WriteLine("Исходная строка: {0}\n", leUnicodeStr);
+            Console.WriteLine("Исходная строка: {0}\n", someText);
 
             Console.WriteLine("Байты Unicode, сначала пладший:");
             var builder = new StringBuilder();
@@ -42,7 +42,7 @@ namespace _010_Unicoding_001
             {
                 builder.Append(b).Append(":");
             }
-            Console.WriteLine("{0}\n", builder);
+            Console.WriteLine("{0}\n", builder.ToString()); //можем использовать ToString, а можем и нет.
 
             Console.WriteLine("Байты Unicode, сначала старший:");
             builder = new StringBuilder();

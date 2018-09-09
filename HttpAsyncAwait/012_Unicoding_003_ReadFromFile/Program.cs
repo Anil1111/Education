@@ -24,7 +24,7 @@ namespace _012_Unicoding_003_ReadFromFile
 
             //Считывание содержимого файла БЕЗ указания кодировки.
             reader = new StreamReader(file);
-            Console.WriteLine(reader.ReadToEnd()); //псмотри что выведется! Вот что значит принебрегать кодировками!
+            Console.WriteLine(reader.ReadToEnd()); //посмотри что выведется! Вот что значит принебрегать кодировками!
             reader.Close();
 
             //Delay
