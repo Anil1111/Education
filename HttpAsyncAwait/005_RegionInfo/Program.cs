@@ -17,7 +17,7 @@ namespace _005_RegionInfo
         static void Main(string[] args)
         {
             //Получение информации о текущем регионе.
-            RegionInfo regionInfo = RegionInfo.CurrentRegion; //RegionInfo не относитс к геолокации. Геолокация определяется с помощью IP
+            RegionInfo regionInfo = RegionInfo.CurrentRegion; //RegionInfo не относится к геолокации. Геолокация определяется с помощью IP
             //\t   Перемещает позицию печати к следующей позиции горизонтальной табуляции.
             Console.WriteLine($"EnglishName региона:\t{regionInfo.EnglishName}");
             Console.WriteLine($"NativeName региона:\t{regionInfo.NativeName}");
