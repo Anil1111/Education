@@ -59,8 +59,13 @@ namespace _009_NullPropagationOperator
                 companyName = client.Phone.Company.Name;
                 Console.WriteLine(companyName);
             }
+            else
+            {
+                companyName = null;
+            }
 
-            //1. Решение с Null Propagation operator.
+            //1. Решение с Null Propagation operator. Мы пытаемся достать Name и чтобы не писать кучу if`ов, используем Элвис оператор - "?".
+            //Кроме того, что что-то из этого будет null, то нужно написать еще блок else(как выше), чтобы присвоить значение по умолчанию. 
             companyName = client?.Phone?.Company?.Name;
             Console.WriteLine(companyName);
 
