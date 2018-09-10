@@ -7,7 +7,7 @@
     <ProjectGuid>{7CB083B2-630B-473F-9064-FA2FD67AA990}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_000_AboutXML</RootNamespace>
-    <AssemblyName>_000_AboutXML</AssemblyName>
+    <AssemblyName>000_AboutXML</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
