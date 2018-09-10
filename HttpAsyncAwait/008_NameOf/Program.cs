@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace _008_NameOf
 {
     /// <summary>
-    /// В C# 6.0 оператор nameof можно использовать, чтобы избежать появления в коде строковых литералов свойств.
+    /// В C# 6.0 оператор nameof можно использовать, чтобы ИЗБЕЖАТЬ ПОЯВЛЕНИЯ В КОДЕ СТРОКОВЫХ ЛИТЕРАЛО СВОЙСТВ- это очень важно!!!
     /// </summary>
     class Customer
     {
@@ -27,7 +27,7 @@ namespace _008_NameOf
             Console.WriteLine(new string('-', 30));
 
             //Выведет наименование свойств.
-            Console.WriteLine(nameof(Customer.FirstName)); //можно как статическое свойство указать //returns FirstName
+            Console.WriteLine(nameof(Customer.FirstName)); //если используется оператор nameof, то можно как статическое свойство указать //returns FirstName
             Console.WriteLine(nameof(customer.LastName)); //returns LastName
 
             //Delay

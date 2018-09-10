@@ -65,14 +65,17 @@ namespace _009_NullPropagationOperator
             Console.WriteLine(companyName);
 
             //2. Решение с Null Propagation operator.
-            companyName = client?.Phone?.Company?.Name ?? "Информация отсутствует";
-            Console.WriteLine(companyName);
+
             /*
             Выражение ?. и представляет оператор условного null. Здесь последовательно проверяется равен ли объект user и вложенные объекты значению null. 
             Если же на каком-то этапе один из объектов окажется равным null, то companyName будет иметь значение по умолчанию, то есть null.
+
             И в этом случае мы можем пойти дальше и применить операцию ?? для установки значения по умолчанию, если название компании не установлено:
 
              */
+            companyName = client?.Phone?.Company?.Name ?? "Информация отсутствует"; //если тут хоть 1 объект будет null, то companyName будет "Информация отсутствует"
+            Console.WriteLine(companyName);
+            
 
             //Delay
             Console.ReadKey();
