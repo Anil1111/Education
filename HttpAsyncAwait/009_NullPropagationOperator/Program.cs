@@ -32,7 +32,7 @@ namespace _009_NullPropagationOperator
         static void Main(string[] args)
         {
             Clinet client = new Clinet();
-            client.Phone = new Phone { Company = new Company () };
+            client.Phone = new Phone { Company = new Company() };
 
             string companyName = null;
 
@@ -41,7 +41,7 @@ namespace _009_NullPropagationOperator
             Console.WriteLine(companyName);
 
             //2. Превый способ проверки на null.
-            if (client!=null)
+            if (client != null)
             {
                 if (client.Phone != null)
                 {
@@ -67,6 +67,12 @@ namespace _009_NullPropagationOperator
             //2. Решение с Null Propagation operator.
             companyName = client?.Phone?.Company?.Name ?? "Информация отсутствует";
             Console.WriteLine(companyName);
+            /*
+            Выражение ?. и представляет оператор условного null. Здесь последовательно проверяется равен ли объект user и вложенные объекты значению null. 
+            Если же на каком-то этапе один из объектов окажется равным null, то companyName будет иметь значение по умолчанию, то есть null.
+            И в этом случае мы можем пойти дальше и применить операцию ?? для установки значения по умолчанию, если название компании не установлено:
+
+             */
 
             //Delay
             Console.ReadKey();
