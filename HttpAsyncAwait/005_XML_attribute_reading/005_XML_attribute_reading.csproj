@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95A03B61-D9AC-45E1-B8F3-A53C9A562875}</ProjectGuid>
+    <ProjectGuid>{2998E295-0675-4726-9724-63451A2A9A79}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_001_XML</RootNamespace>
-    <AssemblyName>001_XML</AssemblyName>
+    <RootNamespace>_005_XML_attribute_reading</RootNamespace>
+    <AssemblyName>005_XML_attribute_reading</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95A03B61-D9AC-45E1-B8F3-A53C9A562875}</ProjectGuid>
+    <ProjectGuid>{26EF65FD-48C3-4D11-9BF2-F1D7E8E0EE48}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_001_XML</RootNamespace>
-    <AssemblyName>001_XML</AssemblyName>
+    <RootNamespace>_011_XPath</RootNamespace>
+    <AssemblyName>011_XPath</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>

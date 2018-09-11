@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{95A03B61-D9AC-45E1-B8F3-A53C9A562875}</ProjectGuid>
+    <ProjectGuid>{701F4615-43DD-45EA-8941-4C69D4656C71}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_001_XML</RootNamespace>
-    <AssemblyName>001_XML</AssemblyName>
+    <RootNamespace>_006_XML_attributes_methods</RootNamespace>
+    <AssemblyName>006_XML_attributes_methods</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
