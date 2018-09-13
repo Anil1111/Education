@@ -21,7 +21,7 @@ namespace _006_Abstraction.Constructors
         public abstract void AbstractMethod();
     }
 
-    class ConcreteClass:AbstractClass
+    class ConcreteClass : AbstractClass
     {
         private string s = "FIRST";
         //Конструктор отрабатывает вторым
@@ -42,7 +42,7 @@ namespace _006_Abstraction.Constructors
         static void Main(string[] args)
         {
             AbstractClass instance = new ConcreteClass();
-            Console.WriteLine(new string('-',55));
+            Console.WriteLine(new string('-', 55));
             instance.AbstractMethod();
 
             //Delay

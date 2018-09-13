@@ -12,14 +12,15 @@ namespace _003_Abstraction
     abstract class AbstractClassA
     {
         public abstract void OperationA();
+        //public AbstractClassA() { }
     }
     //Абстрактный класс В
-    abstract class AbstractClassB:AbstractClassA
+    abstract class AbstractClassB : AbstractClassA
     {
         public abstract void OperationB();
     }
     //Конкретный класс 
-    class ConcreteClass:AbstractClassB
+    class ConcreteClass : AbstractClassB
     {
         public override void OperationA()
         {
