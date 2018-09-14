@@ -3,7 +3,7 @@ using _000_ICarr;
 
 namespace _001_CarLibrary
 {
-    // Добавил в References 000_ICar и теперь есть dll в C:\project\Education\HttpAsyncAwait\001_CarLibrary\bin\Debug\000_ICarr.dll
+    // Добавил в References 000_ICar и теперь есть dll в C:\project\Education\HttpAsyncAwait\001_CarLibrary\bin\Debug\000_ICarr.dll 
     public abstract class Car : ICar
     {
         protected string name;
