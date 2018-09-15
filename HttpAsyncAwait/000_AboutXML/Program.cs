@@ -6,7 +6,7 @@
         {
             // eXtensible Markup Language
             //Стандарты XML
-            https://www.w3.org/standards/xml/
+            //https://www.w3.org/standards/xml/
             /*
              Любая XML должна "строить дерево". Деперья растят при помощи паттерна композит.
 
