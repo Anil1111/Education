@@ -1875,7 +1875,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_CustomSerialization", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "002_SerializationEvent_demarkation_attributes", "002_SerializationEvent\002_SerializationEvent_demarkation_attributes.csproj", "{F61F039A-CB1C-4AD1-9852-8987320464C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_JsonSerialization", "005_JsonSerialization\005_JsonSerialization.csproj", "{3424BCD0-0C82-4278-9028-C32B53A14AD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "005_JsonSerialization_DataContractJsonSerializer", "005_JsonSerialization\005_JsonSerialization_DataContractJsonSerializer.csproj", "{3424BCD0-0C82-4278-9028-C32B53A14AD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
