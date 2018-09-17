@@ -39,6 +39,7 @@ namespace _002_TypeTest
             //Запись значение в private поле
             FieldInfo myString = type.GetField("myString", BindingFlags.Instance | BindingFlags.NonPublic);
             myString?.SetValue(instance2, "Hello, Vasya!");
+            var fieldValue = myString?.GetValue(instance2);
 
             Console.WriteLine(instance2.MyString);
 
