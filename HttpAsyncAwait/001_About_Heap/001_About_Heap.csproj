@@ -7,7 +7,7 @@
     <ProjectGuid>{29BC4C02-E2E9-4C80-8F5E-2906944E9045}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_001_About_Heap</RootNamespace>
-    <AssemblyName>_001_About_Heap</AssemblyName>
+    <AssemblyName>001_About_Heap</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
