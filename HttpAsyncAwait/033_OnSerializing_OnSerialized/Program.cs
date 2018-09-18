@@ -3,10 +3,9 @@ using System.IO;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
 
-//Атрибуты демаркации - OnSerializing, OnSerialized и OnDeSerializing, Deserialized.
-namespace _002_SerializationEvent
+namespace _033_OnSerializing_OnSerialized
 {
-    [Serializable] //Выскочил Exception когда я забыл пометить класс, который сериализую/десериализую.
+   [Serializable] 
     class ShoppingCartItem
     {
         public int productId;
@@ -23,10 +22,8 @@ namespace _002_SerializationEvent
             this.total = quantity * price;
         }
 
-        //Используйте OnSerializingAttribute, чтобы выполнять действия с объектом ДО ВЫПОЛНЕНИЯ СЕРИАЛИЗАЦИИ
         //НУЖНО чтобы методы принимали StreamingContext context и возвращали void иначе все всрется "Application is in Break Point..."
-        //Метод, декорированный атрибутом OnSerializing вызывается методом Serialize
-        [OnSerializing]
+        [OnSerializing] //ДО ВЫПОЛНЕНИЯ СЕРИАЛИЗАЦИИ
         void CalculateTotal(StreamingContext context) 
         {
             Console.WriteLine("OnSerializing");
@@ -38,11 +35,7 @@ namespace _002_SerializationEvent
             Console.WriteLine("OnSerialized");
         }
 
-        //Используйте OnDeserializing Attribute, чтобы задать значения по умолчанию непосредственно ПЕРЕД ДЕСЕРИАЛИЗАЦИЕЙ
-        //Например, если десериализируемый тип не содержит конструктор, создайте метод,
-        //чтобы задать значения любых полей в экземпляре и применить атрибут к методу.
-        //Чтобы использовать OnDeserializingAttribute метод должен содержать параметр StreamingContext
-        [OnDeserializing]
+        [OnDeserializing] //ДО ВЫПОЛНЕНИЯ СЕРИАЛИЗАЦИИ
         void CheckTotal(StreamingContext context)
         {
             Console.WriteLine("OnDeserializing");

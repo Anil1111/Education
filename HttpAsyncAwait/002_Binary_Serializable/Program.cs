@@ -26,7 +26,9 @@ namespace _002_Binary_Serializable
                 //Сериализация
                 //BinaryFormatter побежит по графу НАСЛЕДОВАНИЯ и по графу АССОЦИАЦИИ и будет искать атрибуты [Serializable]
                 //члены, помечены атрибутом [NonSerialized] сеарилизовываться не будут.
-                formatter.Serialize(fileStream, auto);
+                formatter.Serialize(fileStream, auto); //сохраняется эта штука в виде специального бинарного файла
+                //Т.е этот тип сериализации расчитан на то, что его читать будут МАШИНЫ, а НЕ ПРОГРАМИСТЫ
+                //BinaryFormatter - платформо зависим и зависим от версии. Если я , напрмер серилизировал в 2й версии, то не фект, что этот файл откроется в 4й версии.
             }
 
             using (FileStream fileStream = File.OpenRead("CarData.dat"))

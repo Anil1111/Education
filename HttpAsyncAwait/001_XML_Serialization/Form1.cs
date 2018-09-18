@@ -48,6 +48,8 @@ namespace _001_XML_Serialization
                     //Т.е через техники позднего связывания нам динамечески создается пустой экземпляр класса MyClass и потом Deserialize лезет в файловый поток и 
                     //записывает те значения, которые сохранились из предидушего объекта
                     instanceForDeserialization = serializer.Deserialize(stream) as MyClass;
+                    //object objectInstance = serializer.Deserialize(stream);  // тут тоже будет работать, но нам будет удобнее если мы привидемся к MyClass
+
                     this.Text = "Объект Десериализован";
 
                     textBox1.Text = "ID       : " + instanceForDeserialization.Id + Environment.NewLine +

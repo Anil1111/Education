@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Runtime.InteropServices;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Json;
 
@@ -14,6 +15,8 @@ namespace _005_JsonSerialization
         public int Age { get; set; }
         [DataMember]
         public Company Company { get; set; }
+       
+        public string NotAffectedField { get; set; }
  
         public Person()
         { }
