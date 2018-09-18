@@ -17,7 +17,7 @@ namespace _012_finaly_will_not_be_invoked
             }
             catch (Exception e)
             {
-                //throw new Exception();
+                //throw new Exception();   //если я запущу программу без дебаггера через Ctr + F5, то finally выполнится, а если с дебагером - то не выполнится! 
 
                 // или так ...
 
