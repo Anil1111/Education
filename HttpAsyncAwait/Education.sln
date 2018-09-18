@@ -1913,7 +1913,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "006_Destructor_TryCatch", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_DestructorObject", "007_DestructorObject\007_DestructorObject.csproj", "{50B0A372-9182-41E2-953B-2655B2A59954}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_About_Heap", "001_About_Heap\001_About_Heap.csproj", "{29BC4C02-E2E9-4C80-8F5E-2906944E9045}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "001_Heap_LargeObjectHeap_GC", "001_About_Heap\001_Heap_LargeObjectHeap_GC.csproj", "{29BC4C02-E2E9-4C80-8F5E-2906944E9045}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
