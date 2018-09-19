@@ -40,6 +40,7 @@ namespace _000_About_Garbage_Collector
     class SomeType
     {
         //Это метод Finalize (Деструктор)
+        //!!!!ВАЖНО!!! Любой деструктор при компиляции преобразуется в метод Finalize()
         ~SomeType()
         {
             //Здесь помещается код метода Finalize

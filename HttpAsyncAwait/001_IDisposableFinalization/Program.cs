@@ -1,6 +1,8 @@
 ﻿using System;
 
 //IDisposable.Dispose() - как альтернатива Деструктору.
+//!!!!вообще - Finalize() (Деструктор) нужен для того, чтобы захватить неуправляемые ресурсы,
+//а для управляемых ресурсов есть интерфейс IDisposable и метод Dispose
 namespace _001_IDisposableFinalization
 {
     //Реализация IDisposable

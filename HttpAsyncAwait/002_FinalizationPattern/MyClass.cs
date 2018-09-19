@@ -2,6 +2,10 @@
 
 namespace _002_FinalizationPattern
 {
+    //CleanUp() - УПРАВЛЯЕМЫЕ РЕСУРСЫ + НЕУПРАВЛЯЕМЫЕ РЕСУРСЫ
+    //Finalization() - НЕУПРАВЛЯЕМЫЕ РЕСУРСЫ
+
+    //Вот посмотри как оно будет идти если метод CleanUp(bool) будет вызван из Dispose(), и если из Finalize()
     public class MyClass : IDisposable
     {
         private bool disposed = false;
@@ -9,20 +13,24 @@ namespace _002_FinalizationPattern
         //Реализация интерфейса IDisposable.
         public void Dispose()
         {
-            Dispose(true);
+            CleanUp(true); //true говорит о том, что эта штука вызывается из метода CleanUp()
             //Мы тут говорим "Garbage Collector, уже была финализация, так что не вызывай деструктор"
             GC.SuppressFinalize(this); //метод SuppressFinalize делает так, чтобы не вызывался деструктор т.к ПЕРЕКИДЫВАЕТ ИЗ очереди Finalization Reachable в Finalization
             //противоловжный метод - ReRegisterForFinalize(), который наоборот из очереди Finalization перебрасывает в очередь Finalization Reachable 
         }
 
-        protected virtual void Dispose(bool disposing)
+        //Чтобы уменьшить дублирование кода в Finalize() (Дестрокторе) 
+        protected virtual void CleanUp(bool disposing)
         {
             if (!disposed)
             {
-                if (disposing)
+                if (disposing) 
                 {
-                    Console.WriteLine("Соединение с базой данных закрыто");
+                    Console.WriteLine("очищение УПРАВЛЯЕМЫХ ресурсов");
                 }
+
+                Console.WriteLine("очищение НЕУПРАВЛЯЕМЫХ ресурсов"); //файлы, подключения, разные системные ресурсы, сокеты
+                //т.е те, которые находятся ВНЕ нашей программы и по этому они НЕУПРАВЛЯЕМЫЕ!
 
                 this.disposed = true;
             }
@@ -30,7 +38,7 @@ namespace _002_FinalizationPattern
 
         ~MyClass()
         {
-            Dispose(false);
+            CleanUp(false); //false говорит о том, что эта штука вызывается из метода Finalize() (Деструктора)
             Console.WriteLine("Finalize");
         }
     }
