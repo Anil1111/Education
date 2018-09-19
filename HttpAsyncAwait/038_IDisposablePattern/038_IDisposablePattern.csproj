@@ -7,7 +7,7 @@
     <ProjectGuid>{B255C80A-2EF8-4736-BE7C-5BBEDD87BB72}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_038_IDisposablePattern</RootNamespace>
-    <AssemblyName>_038_IDisposablePattern</AssemblyName>
+    <AssemblyName>038_IDisposablePattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
