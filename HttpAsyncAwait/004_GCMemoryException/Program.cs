@@ -26,8 +26,8 @@ namespace _004_GCMemoryException
             {
                 for (int i = 0; i < objects.Length; i++)
                 {
-                    //objects[i] = new BigObject(); //щас будет OutOfMemoryException потому, что массив будет ссылаться на объекты и GC не сможет их удалить.
-                    BigObject @object = new BigObject(); // optimize. А вот щас объекты будут создаваться, а СБОРЩИК МУСОРА будет успевать все очищать и у нас выполнится весь цикл
+                    objects[i] = new BigObject(); //щас будет OutOfMemoryException потому, что массив будет ссылаться на объекты и GC не сможет их удалить.
+                    //BigObject @object = new BigObject(); // optimize. А вот щас объекты будут создаваться, а СБОРЩИК МУСОРА будет успевать все очищать и у нас выполнится весь цикл
                 }
             }
             catch (OutOfMemoryException e)

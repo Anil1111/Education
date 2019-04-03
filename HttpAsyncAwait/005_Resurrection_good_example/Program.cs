@@ -13,11 +13,12 @@ namespace _005_Resurrection_good_example
             // помещается в статическую параменную живого объекта (Program)
             // и объект (SomeType) становится доступным из кода приложения.
             // Теперь объект "возрождается", а сборщик мусора не принимает его за мусор.
-            Program.Instance = this;
+            //Program.Instance = this;
 
             if (Program.counter < 50)
             {
-                // Вызов ReRegisterForFinalize используется для повторного вызова деструктора
+                // Вызов ReRegisterForFinalize используется для повторного вызова деструктора.
+                // Если его не вызвать, то объект умрет
                 GC.ReRegisterForFinalize(this); //ЭТО неотъемлевая часть любого воскрешения!
             }
 
