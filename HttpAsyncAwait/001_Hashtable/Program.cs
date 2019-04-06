@@ -34,7 +34,7 @@ namespace _001_Hashtable
             // Использовани индексатора эквивалнтно вызову Add, если такого индекса не сущевствует.
             emailLookup["s.bishop@contoso.com"] = "Bishop, Scott"; //contoso - второе название компании Microsoft
 
-            //Если такой индекс существует, то происходит только замена знаения
+            //Если такой индекс существует, то происходит только замена значения
             emailLookup["s.bishop@contoso.com"] = "------------";
 
             Console.WriteLine(emailLookup["sbishop@contoso.com"]);
