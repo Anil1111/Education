@@ -29,6 +29,7 @@ namespace _001_Collection
             return false;
         }
 
+        // Reset - не нужен для foreach
         private void Reset() => position = -1;
 
         public object Current => elements[position];
