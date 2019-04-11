@@ -1953,6 +1953,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "038_IDisposablePattern", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interview_task", "Interview_task\Interview_task.csproj", "{6A243D82-8179-48D4-BA9E-BBB7922D62D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterviewTask_Char", "InterviewTask_Char\InterviewTask_Char.csproj", "{12F7234A-FE68-4E3A-BAAB-F3D82BAF2746}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -5139,6 +5141,10 @@ Global
 		{6A243D82-8179-48D4-BA9E-BBB7922D62D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A243D82-8179-48D4-BA9E-BBB7922D62D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A243D82-8179-48D4-BA9E-BBB7922D62D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F7234A-FE68-4E3A-BAAB-F3D82BAF2746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F7234A-FE68-4E3A-BAAB-F3D82BAF2746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F7234A-FE68-4E3A-BAAB-F3D82BAF2746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F7234A-FE68-4E3A-BAAB-F3D82BAF2746}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -6115,6 +6121,7 @@ Global
 		{BC2B68AF-5CD2-42A7-B48E-226F06917337} = {1C90907C-2193-4F31-A094-723ACF8C61B6}
 		{B255C80A-2EF8-4736-BE7C-5BBEDD87BB72} = {1C90907C-2193-4F31-A094-723ACF8C61B6}
 		{6A243D82-8179-48D4-BA9E-BBB7922D62D7} = {792B10A6-5B2D-44B6-81B2-5F18FAB38BF1}
+		{12F7234A-FE68-4E3A-BAAB-F3D82BAF2746} = {792B10A6-5B2D-44B6-81B2-5F18FAB38BF1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EC651EF-E473-43E4-90BF-6591E27E66DB}

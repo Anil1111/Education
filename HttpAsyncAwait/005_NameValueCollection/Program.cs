@@ -2,6 +2,7 @@
 using System.Collections.Specialized;
 using System.Configuration;
 
+
 namespace _005_NameValueCollection
 {
     class Program
@@ -26,8 +27,9 @@ namespace _005_NameValueCollection
 
             Console.WriteLine(new string('-', 50));
 
-            //Испольование индексатора отличается т использования метода Add()
-            //Индексатор не добавляет новое значение , а ЗАМЕНЯЕТ существующее.
+            //Испольование индексатора отличается от использования метода Add()
+            //Индексатор не добавляет новое значение , а ЗАМЕНЯЕТ существующее(это когда мы пытаемся добавить 
+            // элемент по существующему ключу).
             nv["first"] = "1st";
             nv["first"] = "FIRST";
 
@@ -55,7 +57,7 @@ namespace _005_NameValueCollection
             Console.WriteLine("App.Config appSetings values");
 
             //мы так делали в тестах: пихали значение в App.config, а потом использовали в самой програме.
-            var appSettings = ConfigurationSettings.AppSettings; //добавил в App.config пару значений
+            NameValueCollection appSettings = ConfigurationSettings.AppSettings; //добавил в App.config пару значений
             foreach (string appSetting in appSettings)
             {
                 Console.WriteLine($"{appSetting} : {appSettings[appSetting]}");

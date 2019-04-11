@@ -18,7 +18,7 @@ namespace _002_Queue
             queue.Enqueue("Fourth");
 
             //Peek() - вовзвращает первый элемент из очережи не удаляя его.
-            object element = queue.Peek(); //как будет спрашуют "Кто первый?"
+            object element = queue.Peek(); //как буд-то спрашуют "Кто первый?"
             Console.WriteLine(element as string); //First
 
             Console.WriteLine(new string('-', 10));
