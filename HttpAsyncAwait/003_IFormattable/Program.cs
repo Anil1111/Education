@@ -53,6 +53,8 @@ namespace _003_IFormattable
         //}
 
         //IFormatProvider - поставщик формата
+        // {0:K}", temperature
+        // string format -> K, IFormatProvider formatProvider -> temperature
         public string ToString(string format, IFormatProvider formatProvider)
         {
             if (String.IsNullOrEmpty(format))
@@ -61,6 +63,8 @@ namespace _003_IFormattable
                 formatProvider = CultureInfo.CurrentCulture;
             switch (format.ToUpperInvariant())
             {
+                // ниже мы перевызываем метод ToString(format, CultureInfo.CurrentCulture) от Decimal
+                // т.е мы просто обвернули этот метод от Decimal, и сделали так, чтобы в добавок к этому, возврашались так же " °C" или " °F" или " K";
                 case "G":
                 case "C":
                     //F2 - формат вывода вещественного числа (2 знака после запятой).
@@ -85,15 +89,18 @@ namespace _003_IFormattable
 
             //Это все делалось потому, чтобы при выводе на консоль temperature сработал метод ToString
             //и вывел не полное квалифицированное имя, а всю важную для нас информацию.
+            // ВАЖНО!!
+            // При вызове Console.WriteLine("Temperature [default]       = {0}", temperature); - вместо temperature передастся IFormatProvider formatProvider, который НЕ null
+            // А в ситуации ниже - педеается null в качестве IFormatProvider formatProvider
             Console.WriteLine($"Temperature [default]       = {temperature}"); //тут неявно вызывается метод ToString(string format, IFormatProvider formatProvider)
 
             //ОЧЕНЬ ВАЖНО! Из 0:K откусывается 'K' и передается в метод ToString(string format, IFormatProvider formatProvider)
             //попробуй отдебажить
             Console.WriteLine("Temperature [Farenheit]     = {0:K}", temperature); //{0:K} ВОТ такое можно сделать с тем элементом, который наследуется от IFormattable!
             Console.WriteLine("Temperature [CultureInfo]   = {0}", 
-                temperature.ToString("F", CultureInfo.CreateSpecificCulture("en-US")));
+                temperature.ToString("F", CultureInfo.CreateSpecificCulture("en-US"))); // "en-US" не влияет ни на что
             Console.WriteLine("Temperature [CultureInfo]   = {0}",
-                temperature.ToString("C", CultureInfo.CreateSpecificCulture("ru-RU")));
+                temperature.ToString("C", CultureInfo.CreateSpecificCulture("ru-RU"))); // "ru-RU" не влияет ни на что
 
             //Delay
             Console.ReadKey();

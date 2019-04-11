@@ -24,24 +24,26 @@ namespace _003_Collection_yield
         public void Reset() => position = -1;
 
         //Создаем метод GetEnumerator(), используем оператор yield.
+        // это очень важный метод! Именно тут мы и определяем, что будет возвращаться как IEnumerator -
+        // либо наша кастомная реализация, либо же yield return
         public IEnumerator GetEnumerator()
         {
             // ---------- 1-й вариант. -------------
 
-            //while (true)
-            //{
-            //    if (position < elements.Length - 1)
-            //    {
-            //        position++;
-            //        yield return elements[position];
-            //    }
-            //    else
-            //    {
-            //        Reset();
-            //        yield break; //возвращает пустой итератор (а у этого итератора метод MoveNext будет возврашать false)
-            //        //широко применяется при работе с БД
-            //    }
-            //}
+            while (true)
+            {
+                if (position < elements.Length - 1)
+                {
+                    position++;
+                    yield return elements[position];
+                }
+                else
+                {
+                    Reset();
+                    yield break; //возвращает пустой итератор (а у этого итератора метод MoveNext будет возврашать false)
+                    //широко применяется при работе с БД
+                }
+            }
 
             // ---------- 2-й вариант. -------------
 
@@ -52,7 +54,7 @@ namespace _003_Collection_yield
 
             // ---------- 3-й вариант. -------------
 
-            return elements.GetEnumerator();
+            //return elements.GetEnumerator();
             //На массиве вызываем метод GetEnumerator.
             //Наведи на метод и нажми F12. Попадешь в класс Array. 
             //Посмотри какие интерфейсы этот класс реализует.

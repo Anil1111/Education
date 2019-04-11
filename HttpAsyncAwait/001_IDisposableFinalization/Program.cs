@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 
 //IDisposable.Dispose() - как альтернатива Деструктору.
 //!!!!вообще - Finalize() (Деструктор) нужен для того, чтобы захватить неуправляемые ресурсы,
@@ -29,6 +30,7 @@ namespace _001_IDisposableFinalization
             }
         }
     }
+
     class Program
     {
         static void Main(string[] args)
