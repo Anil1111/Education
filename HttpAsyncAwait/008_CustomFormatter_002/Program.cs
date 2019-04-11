@@ -9,7 +9,7 @@ namespace _008_CustomFormatter_002
 {
     //Создание форматированного польовательского вывода.
     //Проблемма в том, что злой математик создал класс Complex, реализовал в нем интерфейс IFormattable и все.
-    //Мы не можем поменять реализванный из IFormattable метод ToString(). Он на не подходит, но класс Complex очень хочется использовать
+    //Мы не можем поменять реализванный из IFormattable метод ToString(). Он нам не подходит, но класс Complex очень хочется использовать
     //Что делать?
     //Нужно реализовать 2 интерфейса IFormatProvider и ICustomFormatter.
     public class ComplexTestFormatter : IFormatProvider, ICustomFormatter

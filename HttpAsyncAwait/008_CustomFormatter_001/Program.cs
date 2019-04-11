@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace _008_CustomFormatter_001
 {
@@ -69,7 +66,7 @@ namespace _008_CustomFormatter_001
             Console.WriteLine(stringComplex); // US - тока в числе
 
             Console.WriteLine("\nОтладочный вывод:\n{0:TEST}", complex);
-            //!!!!ВАЖНО. У нас получилсь сделать {0:TEST}", complex потому, что complex реализует IFormattable
+            //!!!!ВАЖНО. У нас получилсь сделать {0:TEST}", complex потому, что complex реализует IFormattable(Console.Writeline проверяет, реализует ли complex интерфейс IFormattable)
             //а культура передестся по умолчанию, которая установлена на компютере. Можешь подебажить!
             
             //Delay

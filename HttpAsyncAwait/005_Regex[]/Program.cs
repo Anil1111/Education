@@ -59,20 +59,20 @@ namespace _005_Regex__
             Console.WriteLine($"{text} == {pattern} : {regex.IsMatch(text)}\n"); //true
 
             //Квантификатор * означает вхождение 0 и более раз...
-            pattern = @"^\d*}$";
+            pattern = @"^\d*$";
             text = "dfgsddf";
             regex = new Regex(pattern);
             Console.WriteLine($"{text} == {pattern} : {regex.IsMatch(text)}\n"); //False
 
             //Квантификатор * означает вхождение 0 и более раз...
-            pattern = @"^\d*}$";
+            pattern = @"^\d*$";
             text = "";
             regex = new Regex(pattern);
-            Console.WriteLine($"{text} == {pattern} : {regex.IsMatch(text)}\n"); //False хз почему
+            Console.WriteLine($"{text} == {pattern} : {regex.IsMatch(text)}\n"); // True
 
             //Простой шаблон сравнения email
             pattern = @"^[0-9a-zA-Z_-]+@[\S]+\.\S{2,4}$";
-            // с наяала строки (^) пусть будет один и более из символов [0-9a-zA-Z_-]+, потом @
+            // с начала строки (^) пусть будет один и более из символов [0-9a-zA-Z_-]+, потом @
             //, потом один и более \S  Определяет любой символ, который не является цифрой, буквой или подчеркиванием.
             //потому точка (\.), дальше опять \S, но от 2х до 4х символов
             text = "test@mai123.ru";

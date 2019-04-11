@@ -9,7 +9,8 @@ namespace _007_Regex_Match.Success
 {
     /*
       Match представляет подстроку соответствующую шаблону.
-      Match.Success - булево значение, которое показываем найдено ли вхождение или нет исходя из метода match.NextMatch. Подебажь for (Match match = regex.Match(input); match.Success; match = match.NextMatch())
+      Match.Success - булево значение, которое показываем найдено ли вхождение или нет 
+      исходя из метода match.NextMatch. Подебажь for (Match match = regex.Match(input); match.Success; match = match.NextMatch())
       Все переменные объявленные в шаблоне ((?<myLink>) и (?<myLinkText>)) хранятся в коллекции Match.Groups
       В нашем случае нам придется использовать m.Groups["myLink"] и m.Groups["myLinkText"],
       для вывода значений каждой переменной.

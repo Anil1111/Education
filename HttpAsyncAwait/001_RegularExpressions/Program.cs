@@ -23,7 +23,7 @@ namespace _001_RegularExpressions
       \.  Определяет символ точки
 
       */
-    class Program
+    class Programf34f
     {
         static void Main(string[] args)
         {
@@ -49,8 +49,8 @@ namespace _001_RegularExpressions
 
                 Console.WriteLine(
                     IsCorrespondant
-                    ? " соответствует шаблону \"{0}\""
-                    : " НЕ соответствует шаблону \"{0}\"", pattern);
+                        ? " соответствует шаблону \"{0}\""
+                        : " НЕ соответствует шаблону \"{0}\"", pattern);
             }
         }
     }
