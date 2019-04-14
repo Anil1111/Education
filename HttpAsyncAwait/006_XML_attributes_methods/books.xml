@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="iso-8859-1" ?>
 
 <ListOfBooks>
-  <Book>
+  <Book MyAttribute ="100">
     <Title FontSize ="8" Color ="Green">Title-1</Title>
     <Price Currency ="USD">50</Price>
   </Book>
