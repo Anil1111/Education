@@ -52,7 +52,7 @@ namespace _002_TypeTest
         //Получаем информацию об именах всех конструкторах Class1
         private static void ListConstructors(Class1 instance)
         {
-            Console.WriteLine(new string('-', 30) + " Интерфейсы класса Class1" + "\n");
+            Console.WriteLine(new string('-', 30) + " Конструкторы класса Class1" + "\n");
             Type type = instance.GetType();
 
             //Каждый ConstructorInfo знает все только об одном конструкторе
@@ -86,7 +86,7 @@ namespace _002_TypeTest
             Type type = instance.GetType();
 
             //Каждый экземпляр класса PropertyInfo содержит информацию ТОЛЬКО ОБ ОДНОМ НАЙДЕННОМ СВОЙСТВЕ!
-            PropertyInfo[] propertyInfos = type.GetProperties(); //Эта перегрузка возвращает все приватные property
+            PropertyInfo[] propertyInfos = type.GetProperties(); //Эта перегрузка возвращает все ПУБЛИЧНЫЕ property
 
             foreach (PropertyInfo propertyInfo in propertyInfos)
             {
